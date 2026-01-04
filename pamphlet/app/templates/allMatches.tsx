@@ -12,8 +12,18 @@ export default function allMatches() {
       <View style={styles.page}>
         <View style={styles.pageBreak}>
           <View style={styles.masthead}>
-            <Text style={[styles.title, { color: colours.textPrimary }]}>
-              Full Match Review
+            <Text
+              style={[
+                styles.title,
+                { color: colours.textPrimary, width: "90vw" },
+              ]}
+            >
+              <Image
+                source={require("./images/test.jpg")}
+                style={{
+                  objectFit: "contain",
+                }}
+              ></Image>
             </Text>
           </View>
           <View style={styles.featureRow}>

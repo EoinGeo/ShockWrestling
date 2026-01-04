@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet } from "react-native-web";
+import { View, Text, StyleSheet, Image } from "react-native-web";
 import { useTheme } from "../../contexts/ThemeContext";
 import InterviewQA from "../../components/cards/InterviewQA";
 import { tjBakerInterview } from "./interviewData";
@@ -13,12 +13,22 @@ export default function Interviews() {
       {/* Header */}
       <View style={styles.header}>
         <View style={styles.masthead}>
-          <Text style={[styles.title, { color: colours.textPrimary }]}>
-            {title}
+          <Text
+            style={[
+              styles.title,
+              { color: colours.textPrimary, width: "90vw" },
+            ]}
+          >
+            <Image
+              source={require("./images/test.jpg")}
+              style={{
+                objectFit: "contain",
+              }}
+            ></Image>
           </Text>
         </View>
         <Text style={[styles.subtitle, { color: colours.textSecondary }]}>
-          {subject} — {date}
+          {title} — {subject} — {date}
         </Text>
       </View>
 
@@ -66,7 +76,7 @@ export default function Interviews() {
   );
 }
 
-const styles = StyleSheet.create({
+export const styles = StyleSheet.create({
   page: {
     paddingHorizontal: "6vw",
     paddingTop: 32,

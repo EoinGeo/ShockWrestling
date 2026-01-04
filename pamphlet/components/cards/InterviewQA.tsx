@@ -26,17 +26,17 @@ const styles = StyleSheet.create({
   },
 
   card: {
-    padding: 16,
+    padding: 14,
   },
 
   question: {
-    fontSize: 20,
+    fontSize: 18,
     fontWeight: "700",
-    lineHeight: 14,
+    lineHeight: 28,
   },
 
   answer: {
-    fontSize: 17,
+    fontSize: 16,
     lineHeight: 28,
     textAlign: "justify",
     whiteSpace: "pre-line", // IMPORTANT for multi-line answers
