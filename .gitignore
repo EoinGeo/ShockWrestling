@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+pamphlet/.expo/
+
+# VS Code
+.vscode/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+pamphlet/app/TouristGuideToSun'sFall.tsx
+pamphlet/app/templates/images/city.jpg
+pamphlet/app/templates/images/map.png
