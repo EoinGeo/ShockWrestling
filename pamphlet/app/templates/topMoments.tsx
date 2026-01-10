@@ -18,25 +18,18 @@ export default function topMoments() {
     <View style={styles.page}>
       <View style={styles.pageBreak}>
         <View style={styles.masthead}>
-          <Text
-            style={[
-              styles.title,
-              { color: colours.textPrimary, width: "90vw" },
-            ]}
-          >
-            <Image
-              source={require("./images/test.jpg")}
-              style={{
-                objectFit: "contain",
-              }}
-            ></Image>
-          </Text>
-          <Text style={[styles.subtitle, { color: colours.textSecondary }]}>
-            An Official Document from Shock Wrestling
-          </Text>
+          <Image
+            source={require("./images/SW_illustraded_logo_with_wordmark.png")}
+            style={{
+              height: "10vh",
+              aspectRatio: 2.63,
+              alignSelf: "center",
+            }}
+            resizeMode="contain"
+          ></Image>
         </View>
 
-        {/* ───── CAW ROW ───── */}
+        {/* ───── CAW ROW ─────*/}
         <View style={styles.featureRow}>
           <View style={styles.sideStack}>
             <View
@@ -194,7 +187,7 @@ export const styles = StyleSheet.create({
   },
 
   subtitle: {
-    fontSize: 32,
+    fontSize: 28,
     textAlign: "center",
     marginTop: 8,
   },
@@ -231,7 +224,7 @@ export const styles = StyleSheet.create({
   },
 
   headline: {
-    fontSize: 24,
+    fontSize: 32,
     fontWeight: "bold",
     marginBottom: 8,
     textAlign: "center",

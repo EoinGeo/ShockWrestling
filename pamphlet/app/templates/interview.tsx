@@ -13,19 +13,15 @@ export default function Interviews() {
       {/* Header */}
       <View style={styles.header}>
         <View style={styles.masthead}>
-          <Text
-            style={[
-              styles.title,
-              { color: colours.textPrimary, width: "90vw" },
-            ]}
-          >
-            <Image
-              source={require("./images/test.jpg")}
-              style={{
-                objectFit: "contain",
-              }}
-            ></Image>
-          </Text>
+          <Image
+            source={require("./images/SW_illustraded_logo_with_wordmark.png")}
+            style={{
+              height: "10vh",
+              aspectRatio: 2.63,
+              alignSelf: "center",
+            }}
+            resizeMode="contain"
+          ></Image>
         </View>
         <Text style={[styles.subtitle, { color: colours.textSecondary }]}>
           {title} — {subject} — {date}
@@ -91,6 +87,7 @@ export const styles = StyleSheet.create({
   header: {
     marginBottom: 32,
     alignItems: "center",
+    width: "100%",
   },
 
   title: {

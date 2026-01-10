@@ -12,19 +12,15 @@ export default function allMatches() {
       <View style={styles.page}>
         <View style={styles.pageBreak}>
           <View style={styles.masthead}>
-            <Text
-              style={[
-                styles.title,
-                { color: colours.textPrimary, width: "90vw" },
-              ]}
-            >
-              <Image
-                source={require("./images/test.jpg")}
-                style={{
-                  objectFit: "contain",
-                }}
-              ></Image>
-            </Text>
+            <Image
+              source={require("./images/SW_illustraded_logo_with_wordmark.png")}
+              style={{
+                height: "10vh",
+                aspectRatio: 2.63,
+                alignSelf: "center",
+              }}
+              resizeMode="contain"
+            ></Image>
           </View>
           <View style={styles.featureRow}>
             {/* ───── CAW ROW ───── */}
@@ -92,7 +88,7 @@ export default function allMatches() {
               ))}
             </View>
 
-            {/* ───── PROVING GROUNDS ROW ───── */}
+            {/* ───── PROVING GROUNDS ROW ─────*/}
             <View style={styles.sideStack}>
               <View
                 style={[
@@ -146,6 +142,8 @@ export const styles = StyleSheet.create({
     marginBottom: 32,
     borderBottomWidth: 1,
     paddingBottom: 16,
+    maxWidth: "90vw",
+    alignSelf: "center",
   },
 
   title: {
