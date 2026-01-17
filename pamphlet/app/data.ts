@@ -35,7 +35,7 @@ export const strikeData = [
     { Header: "Stinky Pete (Toy Story) vs TJ 'The Raven' (c) - PWF Championship - 19:59", Desc: "TJ Baker makes quick work of Stinky Pete getting the win via pinfall after hitting the Bird Bash", Rating: 3 },
     { Header: "Aiden Albright and Andre Knight vs The Beach Bums - 28:09", Desc: "Aiden Albright & Andre Knight def. Beach Bums via pinfall", Rating: 3.5 },
     { Header: "Delilah Sheilds vs Jessie Dixon vs Natasha Brock - 39:12", Desc: "Delilah Shields becomes #1 contender for the belt of Artemis after securing the victory in this chaotic triple threat", Rating: 4 },
-    { Header: "Jay Wolf vs Emerson Rivers (c) - Community Creations Championship - 47:13", Desc: "Emerson Rivers retains the Community Creations championship after Jay Wolf wins via DQ after Duke Warlord attacked him", Rating: 1.5 },
+    { Header: "Jay Wolf vs Emerson Rivers (c) - Community Creations Championship - 47:13", Desc: "Emerson Rivers retains the Community Creations championship after Jay Wolf wins via DQ after Duke Warlord attacked him", Rating: 2.5 },
     { Header: "Kevin Page vs Animus (c)  - Global Championship - 54:29", Desc: "Animus survived a star making performance by Kevin Page finally securing the win via pinfall after hitting the Stomp", Rating: 6 },
 ];
 
@@ -53,7 +53,7 @@ export const provingGroundsBigMoment = "../images/PG070126.jpg";
 export const provingGroundsData = [
     { Header: "All Mighty Tundra vs Tundra Leaf - 1:02", Desc: "All Mighty Tundra def. Tundra Leaf via pinfall in a fast paced high flying match", Rating: 3.25 },
     { Header: "Scarlet Witches VS Holloway Sisters - 10:52", Desc: "Holloway Sisters def. The Witches in a gutsy performance ", Rating: 2.75 },
-    { Header: "Velocity express vs Anti Matter - 21:49", Desc: "Velocity Express def. AntiMatter in this clash between two up and coming tag teams where the winners will face Payne and Poison next week for the World Tag Team Titles", Rating: 3 },
+    { Header: "Velocity Express vs Anti Matter - 21:49", Desc: "Velocity Express def. AntiMatter in this clash between two up and coming tag teams where the winners will face Payne and Poison next week for the World Tag Team Titles", Rating: 3 },
     { Header: "Tyler Frost vs Luke Mercer - 29:17", Desc: "Tyler Frost def. Luke Mercer in a match that could have went either way", Rating: 4 },
     { Header: "Ultimo Macho vs Damian Cruz - 37:14", Desc: "Ultimo Macho steals a victory from Damian Cruz after hitting a low blow that was followed by a barrage of attacks", Rating: 3 },
     { Header: "Caleb Blaze vs Cameron Barker - Rising stars championship - No DQ 46:02", Desc: "Cameron Barker proves why he's the Rising Stars Champion by def. Caleb Blaze in a No DQ match", Rating: 4 },

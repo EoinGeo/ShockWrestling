@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Text } from "react-native-web";
 
 interface StarRatingProps {
   rating: number; // can be decimal, e.g., 3.5
@@ -7,6 +8,15 @@ interface StarRatingProps {
 }
 
 const StarRating: React.FC<StarRatingProps> = ({ rating, maxStars = 5 }) => {
+  if (rating === -1) {
+    return (
+      <StyledWrapper>
+        <div className="stars">
+          <Text>Not applicable</Text>
+        </div>
+      </StyledWrapper>
+    );
+  }
   const totalStars = Math.max(Math.ceil(rating), maxStars);
   const stars = Array.from({ length: totalStars }, (_, i) => i + 1);
 
