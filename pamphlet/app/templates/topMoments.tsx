@@ -70,7 +70,48 @@ export default function topMoments() {
             />
           </View>
         </View>
-
+        {/* ───── PROVING GROUNDS ROW ───── 
+        <View style={styles.featureRow}>
+          <View style={styles.sideStack}>
+            <View
+              style={[
+                styles.masthead,
+                {
+                  flexDirection: "row",
+                  justifyContent: "space-between",
+                  alignContent: "center",
+                  alignItems: "center",
+                },
+              ]}
+            >
+              <Text style={[styles.headline, { color: colours.textPrimary }]}>
+                This Week on Proving Grounds
+              </Text>
+              <Image
+                source={require("./images/PG.png")}
+                style={styles.cawImage} // reuse sizing or create new style
+              />
+            </View>
+            {topProvingGroundsMoments.map((item, index) => (
+              <HoverableCard key={index} style={styles.article}>
+                <Text style={styles.headline}>{item.Header}</Text>
+                <Text style={styles.body}>{item.Desc}</Text>
+                <StarRating rating={item.Rating || 0} />
+              </HoverableCard>
+            ))}
+          </View>
+          <View style={styles.heroWrap}>
+            <img
+              src={provingGroundsBigMoment}
+              style={{
+                width: "100%",
+                height: "100%",
+                borderRadius: 12,
+                objectFit: "contain",
+              }}
+            />
+          </View>
+        </View> */}
         {/* ───── STRIKE ROW ───── */}
         <View style={styles.featureRow}>
           <View style={styles.heroWrap}>
@@ -117,49 +158,6 @@ export default function topMoments() {
             ))}
           </View>
         </View>
-
-        {/* ───── PROVING GROUNDS ROW ───── */}
-        <View style={styles.featureRow}>
-          <View style={styles.sideStack}>
-            <View
-              style={[
-                styles.masthead,
-                {
-                  flexDirection: "row",
-                  justifyContent: "space-between",
-                  alignContent: "center",
-                  alignItems: "center",
-                },
-              ]}
-            >
-              <Text style={[styles.headline, { color: colours.textPrimary }]}>
-                This Week on Proving Grounds
-              </Text>
-              <Image
-                source={require("./images/PG.png")}
-                style={styles.cawImage} // reuse sizing or create new style
-              />
-            </View>
-            {topProvingGroundsMoments.map((item, index) => (
-              <HoverableCard key={index} style={styles.article}>
-                <Text style={styles.headline}>{item.Header}</Text>
-                <Text style={styles.body}>{item.Desc}</Text>
-                <StarRating rating={item.Rating || 0} />
-              </HoverableCard>
-            ))}
-          </View>
-          <View style={styles.heroWrap}>
-            <img
-              src={provingGroundsBigMoment}
-              style={{
-                width: "100%",
-                height: "100%",
-                borderRadius: 12,
-                objectFit: "contain",
-              }}
-            />
-          </View>
-        </View>
       </View>
     </View>
   );
@@ -169,6 +167,7 @@ export const styles = StyleSheet.create({
   page: {
     paddingHorizontal: "6vw",
     paddingTop: 32,
+    paddingBottom: 32,
     width: "100vw",
     height: "100vh",
   },
@@ -213,8 +212,7 @@ export const styles = StyleSheet.create({
 
   sideStack: {
     width: "50%",
-    justifyContent: "space-between",
-    gap: 24,
+    justifyContent: "space-around",
   },
 
   article: {

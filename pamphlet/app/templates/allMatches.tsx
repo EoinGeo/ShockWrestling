@@ -6,7 +6,11 @@ import { cawData, provingGroundsData, strikeData } from "../data";
 
 export default function allMatches() {
   const { colours } = useTheme();
-
+  const highestCAW = Math.max(...cawData.map((item) => item.Rating || 0));
+  const highestPG = Math.max(
+    ...provingGroundsData.map((item) => item.Rating || 0),
+  );
+  const highestStrike = Math.max(...strikeData.map((item) => item.Rating || 0));
   return (
     <ThemeProvider>
       <View style={styles.page}>
@@ -37,7 +41,7 @@ export default function allMatches() {
                 ]}
               >
                 <Text style={[styles.headline, { color: colours.textPrimary }]}>
-                  Top Moments on CAW
+                  This Monday on CAW
                 </Text>
                 <Image
                   source={require("./images/CAW.png")}
@@ -48,46 +52,15 @@ export default function allMatches() {
                 <HoverableCard key={index} style={styles.article}>
                   <Text style={styles.headline}>{item.Header}</Text>
                   <Text style={styles.body}>{item.Desc}</Text>
+                  {item.Rating === highestCAW && (
+                    <Text style={styles.matchOfNight}>
+                      SWI's Match of the Night
+                    </Text>
+                  )}
                   <StarRating rating={item.Rating || 0} />
                 </HoverableCard>
               ))}
             </View>
-
-            {/* ───── STRIKE ROW ───── */}
-            <View style={styles.sideStack}>
-              <View
-                style={[
-                  styles.masthead,
-                  {
-                    flexDirection: "row",
-                    justifyContent: "space-between",
-                    alignContent: "center",
-                    alignItems: "center",
-                  },
-                ]}
-              >
-                <Text
-                  style={[
-                    styles.headline,
-                    { color: colours.textPrimary, lineHeight: 50, width: "66" },
-                  ]}
-                >
-                  This Week on Strike
-                </Text>
-                <Image
-                  source={require("./images/STRIKE.png")}
-                  style={styles.strikeImage}
-                />
-              </View>
-              {strikeData.map((item, index) => (
-                <HoverableCard key={index} style={styles.article}>
-                  <Text style={styles.headline}>{item.Header}</Text>
-                  <Text style={styles.body}>{item.Desc}</Text>
-                  <StarRating rating={item.Rating || 0} />
-                </HoverableCard>
-              ))}
-            </View>
-
             {/* ───── PROVING GROUNDS ROW ─────*/}
             <View style={styles.sideStack}>
               <View
@@ -107,7 +80,7 @@ export default function allMatches() {
                     { color: colours.textPrimary, lineHeight: 50, width: "66" },
                   ]}
                 >
-                  This Week on Proving Grounds
+                  This Wednesday on Proving Grounds
                 </Text>
                 <Image
                   source={require("./images/PG.png")}
@@ -118,6 +91,50 @@ export default function allMatches() {
                 <HoverableCard key={index} style={styles.article}>
                   <Text style={styles.headline}>{item.Header}</Text>
                   <Text style={styles.body}>{item.Desc}</Text>
+                  {item.Rating === highestPG && (
+                    <Text style={styles.matchOfNight}>
+                      SWI's Match of the Night
+                    </Text>
+                  )}
+                  <StarRating rating={item.Rating || 0} />
+                </HoverableCard>
+              ))}
+            </View>
+            {/* ───── STRIKE ROW ───── */}
+            <View style={styles.sideStack}>
+              <View
+                style={[
+                  styles.masthead,
+                  {
+                    flexDirection: "row",
+                    justifyContent: "space-between",
+                    alignContent: "center",
+                    alignItems: "center",
+                  },
+                ]}
+              >
+                <Text
+                  style={[
+                    styles.headline,
+                    { color: colours.textPrimary, lineHeight: 50, width: "66" },
+                  ]}
+                >
+                  This Friday on Strike
+                </Text>
+                <Image
+                  source={require("./images/STRIKE.png")}
+                  style={styles.strikeImage}
+                />
+              </View>
+              {strikeData.map((item, index) => (
+                <HoverableCard key={index} style={styles.article}>
+                  <Text style={styles.headline}>{item.Header}</Text>
+                  <Text style={styles.body}>{item.Desc}</Text>
+                  {item.Rating === highestStrike && (
+                    <Text style={styles.matchOfNight}>
+                      SWI's Match of the Night
+                    </Text>
+                  )}
                   <StarRating rating={item.Rating || 0} />
                 </HoverableCard>
               ))}
@@ -184,11 +201,6 @@ export const styles = StyleSheet.create({
     gap: 24,
   },
 
-  columns: {
-    columnCount: 3,
-    columnGap: 32,
-  },
-
   article: {
     width: "100%",
     marginBottom: 32,
@@ -206,5 +218,13 @@ export const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 24,
     textAlign: "justify",
+  },
+  matchOfNight: {
+    marginTop: 12,
+    fontSize: 18,
+    fontWeight: "bold",
+    letterSpacing: 1,
+    textTransform: "uppercase",
+    alignSelf: "center",
   },
 });
