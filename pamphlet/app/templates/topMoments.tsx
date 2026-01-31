@@ -70,8 +70,19 @@ export default function topMoments() {
             />
           </View>
         </View>
-        {/* ───── PROVING GROUNDS ROW ───── 
+        {/* ───── PROVING GROUNDS ROW ─────  */}
         <View style={styles.featureRow}>
+          <View style={styles.heroWrap}>
+            <img
+              src={provingGroundsBigMoment}
+              style={{
+                width: "100%",
+                height: "100%",
+                borderRadius: 12,
+                objectFit: "contain",
+              }}
+            />
+          </View>
           <View style={styles.sideStack}>
             <View
               style={[
@@ -100,30 +111,9 @@ export default function topMoments() {
               </HoverableCard>
             ))}
           </View>
-          <View style={styles.heroWrap}>
-            <img
-              src={provingGroundsBigMoment}
-              style={{
-                width: "100%",
-                height: "100%",
-                borderRadius: 12,
-                objectFit: "contain",
-              }}
-            />
-          </View>
-        </View> */}
+        </View>
         {/* ───── STRIKE ROW ───── */}
         <View style={styles.featureRow}>
-          <View style={styles.heroWrap}>
-            <img
-              src={strikeBigMoment}
-              style={{
-                height: "100%",
-                borderRadius: 20,
-                objectFit: "contain",
-              }}
-            />
-          </View>
           <View style={styles.sideStack}>
             <View
               style={[
@@ -156,6 +146,16 @@ export default function topMoments() {
                 <StarRating rating={item.Rating || 0} />
               </HoverableCard>
             ))}
+          </View>
+          <View style={styles.heroWrap}>
+            <img
+              src={strikeBigMoment}
+              style={{
+                height: "100%",
+                borderRadius: 20,
+                objectFit: "contain",
+              }}
+            />
           </View>
         </View>
       </View>

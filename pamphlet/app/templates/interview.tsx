@@ -1,12 +1,12 @@
 import { View, Text, StyleSheet, Image } from "react-native-web";
 import { useTheme } from "../../contexts/ThemeContext";
 import InterviewQA from "../../components/cards/InterviewQA";
-import { tjBakerInterview } from "./interviewData";
-import { strikeBigMoment } from "../data";
+import { cameronBarkerInterview } from "./interviewData";
+import { interviewMoment } from "../data";
 
 export default function Interviews() {
   const { colours } = useTheme();
-  const { title, subject, date, qa } = tjBakerInterview;
+  const { title, subject, date, qa } = cameronBarkerInterview;
 
   return (
     <View style={styles.page}>
@@ -33,7 +33,7 @@ export default function Interviews() {
         <View style={styles.row}>
           <View style={styles.heroWrap}>
             <img
-              src={strikeBigMoment}
+              src={interviewMoment}
               style={{
                 borderRadius: 20,
                 objectFit: "contain",

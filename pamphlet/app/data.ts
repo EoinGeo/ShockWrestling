@@ -1,49 +1,52 @@
 // CAW-related exports (not applicable for this Strike event)
 export const topCawMoments = [
-    { Header: "Steven Attacks 'Filthy' Flame Shadow", Desc: "After Flames match against Zacko, Steven attacked him and attempted to put him through a table but flame was able to flee", Rating: 4 },
-{ Header: "Eoin is 50-0", Desc: "Eoin faced his biggest challenge yet facing The Kaiju of Shock Wrestling and the former longest undefeated streak holder Beacon. Eoins streak has no foreseeable end in sight ", Rating: 5 },
-{ Header: "The Constant is back on top", Desc: "Nicholas was able to yet again capture the world title and is back on top of the mountain on CAW while Rob has lost his title without even being pinned", Rating: 5 },];
+    { Header: "Eoin Calls Out Ace", Desc: "Eoin claims to have figured out why Ace hates him. He claims that Ace is jealous of the streak because it’s a statement that proves that The New Generation is coming for the spots held by Shock Wrestling Legends. As well as declaring that he will be entering the 2026 Shock Rock Rumble.", Rating: 3.5 },
+{ Header: "Blockbuster Brawl", Desc: "After Steven was defeated by Zacko, “Filthy” Flame Shadow rushed the ring to attack him and Zacho stopped Flame. After Zacho left Steven capitalized and put Flame through a table ", Rating: 4 },
+{ Header: "Rob Wages War", Desc: "At the start of the night Rob claimed he would make every member of The Constant bleed. He made true on that promise attacking JAB, Big H, Ace and finally attacking Nicholas at his championship celebration at the end of the night.", Rating: 5 },
+];
 export const topProvingGroundsMoments = [
-    
+    { Header: "The Witches Coven Grows", Desc: "Backstage we saw 'The Witch Queen' Relka give a pep talk to Madz ahead of her #1 contenders match for the Women's Proving Grounds Championship ", Rating: 3 },
+{ Header: "All Gas No Breaks", Desc: "Alex Dean had a statement win against his former tag partner Aiden Travis winning by a score of 6-2. Aiden Travis looked to have sustained a back injury in this brutal match.", Rating: 4 },
+{ Header: "Fourway Finale", Desc: "After Caleb Blaze and Vinny Diaz attacked both competitors in the main event tonight, GM Robert Ballantyne announced that it will be a fatal fourway for the Proving Grounds Championship on the Proving Grounds season finale", Rating: 4 },
 ];
 export const topStrikeMoments = [
-    { Header: "The Return of Big Chop", Desc: "Strike Roulette signaled the return of Chopper with the wheel selecting him to go up against Zach Gold. Big Chop put the Strike locker room on notice by winning in his return", Rating: 4 },
-    { Header: "Pure Rage in the tag division ", Desc: "Pat Cross was able to help his long time friend Draven defeat Gaz and Spencer Saints thanks to the Roulette Wheel", Rating: 3.5 },
-    { Header: "The Belle Tolls", Desc: "Gavin Belle has finally returned to Shock Wrestling attacking the global champion Animus with a brand new faction", Rating: 5 },
+    { Header: "Women's Global Championship Vacated?!", Desc: "Killa comes down to the ring and announces she has separated her shoulder and has to vacate the women's global championship and that there will be a tournament to see who faces Mac Daddy for the vacated title ", Rating: 5 },
+{ Header: "The Outlaw Faces Judgement ", Desc: "Rookie sensation Judgement claimed the biggest victory of his career by getting the upset win over former Global Champion PAZ and punches his ticket to enter the Shock Rock Rumble. ", Rating: 4 },
+{ Header: "Ring The Belle", Desc: "Gavin Belle emerged victorious in the 10 man mini rumble to become the new #1 contender for Animus' Global Championship continuing the re-ignition of their rivalry. ", Rating: 4.5 },
 ];
 // Big Moment Images
-export const cawBigMoment = "../images/CAW190126.jpg";
-export const provingGroundsBigMoment = "../images/PG210126.jpg";
-export const strikeBigMoment = "../images/Strike230126.jpg";
+export const cawBigMoment = "../images/CAW260126.jpg";
+export const provingGroundsBigMoment = "../images/PG280126.jpg";
+export const strikeBigMoment = "../images/Strike300126.jpg";
+export const interviewMoment = "../images/cameronBarker.jpg";
 // All Matches Data
 export const cawData = [
-    { Header: "Sunflower vs Mariposa  - 0:50", Desc: "The roulette wheel landed on Mariposa to challenge for Sunflowers Women's European Championship. Sunflower proceeded to make quick work retaining her title via pinfall", Rating: 4 },
-{ Header: "'Filthy' Flame Shadow vs Zacko - 4:28", Desc: "The Roulette wheel landed on a tables match! Flame successfully defended his blockbuster championship after Steven came out to assist Zacko but distracting him instead ", Rating: 4 },
-{ Header: "JVH vs Relka - 18:51", Desc: "The roulette wheel decided that JVH would be Relkas opponent tonight. Relka notched a victory via count out", Rating: 3 },
-{ Header: "Ziggy Danger vs Rikki Pierce -  27:38", Desc: "Ziggy retained his Zoom Championship in a fast paced match", Rating: 4 },
-{ Header: "Ashlee vs Nicole Fox - 36:21", Desc: "The Womens Shock World Championship match became an extreme rules match thanks to the wheel. This rollercoaster of a match ended with Nicole becoming the new champ after Danielle attacked Ashlee", Rating: 5 },
-{ Header: "Eoin vs Beacon - 48:07", Desc: "This match featured The Undefeated Irish Sensation Eoin taking on The Force of Nature Beacon. Eoin came out on top in a match of the year contended ", Rating: 6 },
-{ Header: "Andre Pinning Roberts vs Big Hamm - 1:15:08", Desc: "Andres opponent chosen by the wheel was Big Hamm. Somehow Andre was able to keep Big Hamm down for the 3 count and remains CAW GM", Rating: 3 },
-{ Header: "Rob vs Nicholas vs Germ vs Rodkip - 1:25:34", Desc: "The wheel made Rob and Nicholas' Shock World Title match a fatal 4-way that now included Rob and Germ. This match was a car crash from the beginning. When the dust settled Nicholas found himself once again lifting up the world title after scoring a pinfall on Germ", Rating: 5 },];
+   { Header: "JAB vs Big Hamm - 1:47", Desc: "JAB picked up a win via pinfall. 1/2 of the way to being number one contenders for the world tag team championship ", Rating: 3 },
+{ Header: "Ashlee vs Mariposa - 10:42", Desc: "Mariposa put up a good effort against the former Shock Women's World champion but ultimately fell short with Ashlee winning via pinfall", Rating: 3.5 },
+{ Header: "Eoin vs Maverick Basher - 18:28", Desc: "Eoin defeated Maverick Basher in Mavericks debut match. Maverick put up a good fight but he fell victim to Eoins undefeated streak. ", Rating: 3.5 },
+{ Header: "Danielle vs Heather Armstrong - 32:02", Desc: "Danielle picks up a dominant win via pinfall", Rating: 2.5 },
+{ Header: "Big H vs The Guard - 39:06", Desc: "Big H picked up a big victory over The Guard to earn himself and JAB the number one contendership for the CAW Tag Team Championships", Rating: 3 },
+{ Header: "Rodkip & Michelle Martinez vs Germ & Relka  - 46:00", Desc: "Both teams had great chemistry in this match, with Relka ultimately rolling up Michelle to get her team the win", Rating: 4 },
+{ Header: "Payne and Poison vs The Sock Puppets - 1:04:42", Desc: "Payne & Poison kept their momentum rolling and tossed the sock puppets in the dirty laundry", Rating: 3.5 },
+{ Header: "Zacko vs Steven Chronicles- Tables Match - 1:12:25", Desc: "Zacho attacked Steven before the match could even start and stole a quick win in this tables match", Rating: 3 },
+];
 export const provingGroundsData = [
-    { Header: "Cameron Barker vs Max Marshall - 1:03", Desc: "The Roulette wheel has made this Rising Stars Championship match an extreme rules match. This match went back and forth ultimately with Barker retaining his championship ", Rating: 4 },
-{ Header: "El Vigalante Violente vs 'Flyboy' DJ Holmes  - 16:36", Desc: "The Roulette Wheel chose DJ Holmes to go up against El Vigalante Violente and The Flyboy picked up an impressive win in his debut", Rating: 3 },
-{ Header: "Luke Mercer vs Brandon Steel  - 25:48", Desc: "The Roulette wheel has landed on a Knock Out match. Luke Mercer picked up the win after nailing a phenomenal forearm", Rating: 3 },
-{ Header: "Scarlett Witches vs Holloway Sisters - 37:19 ", Desc: "The Women's Tag Team Championships were on the line in a falls count anywhere match thanks to the roulette wheel. The Holloway Sisters picked up the win to become your new Womens Tag Team Champions", Rating: 4 },
-{ Header: "Aiden Travis vs Russell Tanaka   - 49:06", Desc: "Russell Tanaka picked up a victory to become the new number 1 contender for the Proving Grounds championship ", Rating: 3 },
-{ Header: "Emerson Rivers vs Vittorio Greu  - 57:24", Desc: "After Vittorio was chosen as Rivers opponent, Rivers retained his Community Creations championship ", Rating: 4 },
-{ Header: "Ultimo Macho vs Damian Cruz  - 1:05:59", Desc: "The Wheel has struck again! Damian Cruz put away Ultimo Macho in this fantastic ambulance match", Rating: 4.5 },
-{ Header: "Eoin vs Tyler Frost - 1:18:51", Desc: "Tyler Frost was selected by the wheel to challenge Eoin. Eoin defeated Tyler in what was a star making performance for the rookie", Rating: 5 },
-{ Header: "Jacob Hendry vs Vinny Diaz vs Caleb Blaze - 1:35:14", Desc: "After Vince Diaz walked out of the match, Jacob seized the win by pinning Caleb Blaze", Rating: 4 },
+    { Header: "'Flyboy' DJ Holmes vs El Vigalante Violente vs All Mighty Tundra - 1:00", Desc: "All Mighty Tundra emerged victorious in this chaotic match and is the new #1 contender for the Zoom Championship ", Rating: 4.5 },
+{ Header: "Cameron Barker vs InfernoJohnny (Rising Stars Championship) - 16:58", Desc: "Cameron Barker survived the onslaught from Inferno Johnny and retains his Rising Stars Championship ", Rating: 4 },
+{ Header: "Ultimo Macho vs Tyler Frost- 30:45", Desc: "Tyler Frost defeats Ultimo Macho via pinfall. After the match Tyler offers to shake Machos hand but Macho slaps it away ", Rating: 3 },
+{ Header: "Rising Stars #1 contenders battle royal - 40:32", Desc: "Damian Cruz wins the battle royal and will challenge Cameron Barker next week for the Rising Stars Championship ", Rating: 3 },
+{ Header: "Madz vs Trixie Kaneki - 49:13", Desc: "Madz picks up a nice singles victory to become #1 contender for the Women's Proving Grounds Championship and will face Tsuki Adashi next week ", Rating: 3.5 },
+{ Header: "Alex Dean vs Aiden Travis - 56:50", Desc: "Alex Dean completely destroyed Aiden Travis in this Iron Man underground match", Rating: 4 },
+{ Header: "Jacob vs Russell Tanaka (Proving Grounds Championship) - 1:15:52", Desc: "This match was looking fantastic until it was ruled a no contest as Caleb Blaze and Vinny Diaz attacked both competitors ", Rating: 3 },
 ];
 export const strikeData = [
-    { Header: "Judgement vs Kyle Murphy vs The Great Luc vs Jet Carter  - 1:22", Desc: "In this elimination fatal 4-way the wheel will determine which championship the winner will get to challenge for in the coming weeks. Kyle Murphy managed to come out victorious and the wheel landed on the Community Creations Championship ", Rating: 3.5 },
-{ Header: "Spencer Saints & Gaz vs Pat Cross and Draven  - 15:18 ", Desc: "The roulette wheel landed on Pat Cross as Dravens tag partner tonight. Pat Cross & Draven picked up the win with Draven getting a pin on Spencer Saints", Rating: 4 },
-{ Header: "Skull vs Delilah Shields  - 28:41", Desc: "The Roulette Wheel made this Belt of Artemis Championship match a tables match! Delilah Shields wins the title after successfully putting Skull through a table ", Rating: 3.5 },
-{ Header: "Zach Gold vs Chopper  - 37:30", Desc: "The Roulette wheel has landed on CHOPPER as Zach Golds opponent tonight. Zach Gold thought he was going to score another win over a Shock Wrestling legend but Chopper ended up being too much for The Golden Bucks tonight left with the victory ", Rating: 4.5 },
-{ Header: "Skywalker vs Kevin Page  - 58:40", Desc: "In a match where the winner heads to the Shock Rock Rumble, Kevin Page wins via Pinfall thanks to an assist in keeping the other Golden Bucks at bay from the Beach Bums ", Rating: 3 },
-{ Header: "Killa Vaughn Hollywood vs Mack- 1:07:32", Desc: "The Roulette Wheel has made this Women's Global Championship a submission match! This match was fantastic up until Mack let her anger get the best of her and she brutalized Killa with the ring steps getting herself disqualified ", Rating: 4 },
-{ Header: "Jay Wolf vs Duke Warlord vs Emerson Rivers  - 1:19:30", Desc: "The wheel has spun and the Community Creations championship is on the line in this triple threat tables match! Jay Wolf captures his first title in Shock Wrestling by putting Duke through a table", Rating: 4.5 },
-{ Header: "TJ Baker vs Arik Alexander  - 1:34:04", Desc: "The Roulette wheel has made this PWF championship match a falls count anywhere match! This match was pure chaos from the jump. Ultimate TJ Baker retained his PWF Championship via pinfall ", Rating: 4 },
-{ Header: "Animus vs Alexi- 1:49:27", Desc: "Jake Ricker was the special guest referee in this Global Championship match thanks to the roulette wheel. After Jake got removed as Ref, Animus was able to survive against Alexi and retain his Global Championship. Post match he was attacked by a new Gavin Belle led faction", Rating: 5 },
+    { Header: "Kyle Murphy vs Jay Wolf (Community Creations Championship match) - 0:34", Desc: "This match was looking to be an exciting one but ended in disqualification as Duke Warlord attacked Jay Wolf", Rating: 2 },
+{ Header: "The Carrot & The Carver vs Vengeance (Aiden Albright & Andre Knight w/ Gavin Belle)  - 7:50", Desc: "Vengeance picked up a big win after Carrot turned on The Carver", Rating: 2.5 },
+{ Header: "'The Aussie Outlaw' Paz vs Judgement - 15:42", Desc: "Judgement with a HUGE upset win over Paz securing his spot in the SHOCK ROCK RUMBLE", Rating: 4 },
+{ Header: "EchoSharpe vs Cloud 9 - 25:21", Desc: "Cloud 9 gets a much needed win getting themselves back on the same page", Rating: 4 },
+{ Header: "Golden Bucks vs Terrible Dogs- 35:32", Desc: "Golden Bucks picked up a nice win in a competitive match and will face Cloud 9 in the main event of next weeks Strike", Rating: 3.5 },
+{ Header: "Blue Bird vs Alani Kaiva - 42:22", Desc: "Blue Bird outlasted the Giant Alani Kaiva to move on in the Women's Global Championship tournament ", Rating: 4 },
+{ Header: "Natasha Brock vs Adrianna - 51:36", Desc: "Natasha Brock picks up a dominant win over Adrianna ", Rating: 3.5 },
+{ Header: "Zach Gold (c) vs Chopper- SWF World Championship-  57:34", Desc: "Zach Gold retains his SWF World Championship in a thrilling victory over Chopper", Rating: 4 },
+{ Header: "10 Person Rumble. Gaz vs Alexi vs Draven vs Rikki Pierce vs SSS vs Duke Warlord vs Luke Mercer vs Sully vs Arik Alexander vs Gavin Belle -  1:08:00", Desc: "This mini rumble to determine who faces Animus for the Global Championship at the Shock Rock Rumble was largely dominated by Alexi in the first half until Arik eliminated him and Sully. Ultimately Gavin Belle entered at 10 and eliminated Arik to become the new #1 contender ", Rating: 4.5 },
 ];
