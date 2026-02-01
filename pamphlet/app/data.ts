@@ -1,7 +1,7 @@
 // CAW-related exports (not applicable for this Strike event)
 export const topCawMoments = [
     { Header: "Eoin Calls Out Ace", Desc: "Eoin claims to have figured out why Ace hates him. He claims that Ace is jealous of the streak because it’s a statement that proves that The New Generation is coming for the spots held by Shock Wrestling Legends. As well as declaring that he will be entering the 2026 Shock Rock Rumble.", Rating: 3.5 },
-{ Header: "Blockbuster Brawl", Desc: "After Steven was defeated by Zacko, “Filthy” Flame Shadow rushed the ring to attack him and Zacho stopped Flame. After Zacho left Steven capitalized and put Flame through a table ", Rating: 4 },
+{ Header: "Blockbuster Brawl", Desc: "After Steven was defeated by Zacko, “Filthy” Flame Shadow rushed the ring to attack him and Zacko stopped Flame. After Zacko left Steven capitalized and put Flame through a table ", Rating: 4 },
 { Header: "Rob Wages War", Desc: "At the start of the night Rob claimed he would make every member of The Constant bleed. He made true on that promise attacking JAB, Big H, Ace and finally attacking Nicholas at his championship celebration at the end of the night.", Rating: 5 },
 ];
 export const topProvingGroundsMoments = [
@@ -28,7 +28,7 @@ export const cawData = [
 { Header: "Big H vs The Guard - 39:06", Desc: "Big H picked up a big victory over The Guard to earn himself and JAB the number one contendership for the CAW Tag Team Championships", Rating: 3 },
 { Header: "Rodkip & Michelle Martinez vs Germ & Relka  - 46:00", Desc: "Both teams had great chemistry in this match, with Relka ultimately rolling up Michelle to get her team the win", Rating: 4 },
 { Header: "Payne and Poison vs The Sock Puppets - 1:04:42", Desc: "Payne & Poison kept their momentum rolling and tossed the sock puppets in the dirty laundry", Rating: 3.5 },
-{ Header: "Zacko vs Steven Chronicles- Tables Match - 1:12:25", Desc: "Zacho attacked Steven before the match could even start and stole a quick win in this tables match", Rating: 3 },
+{ Header: "Zacko vs Steven Chronicles- Tables Match - 1:12:25", Desc: "Zacko attacked Steven before the match could even start and stole a quick win in this tables match", Rating: 3 },
 ];
 export const provingGroundsData = [
     { Header: "'Flyboy' DJ Holmes vs El Vigalante Violente vs All Mighty Tundra - 1:00", Desc: "All Mighty Tundra emerged victorious in this chaotic match and is the new #1 contender for the Zoom Championship ", Rating: 4.5 },
