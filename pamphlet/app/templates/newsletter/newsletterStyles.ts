@@ -47,8 +47,8 @@ export const newsletterStyles = StyleSheet.create({
   /* ───── HERO ───── */
   heroWrap: {
     width: "100%",
-    height: 480,
-    borderRadius: 16,
+    height: 280,
+    borderRadius: 32,
     alignItems: "center",
     justifyContent: "center",
   },
@@ -65,8 +65,9 @@ export const newsletterStyles = StyleSheet.create({
   },
 
   brandLogo: {
-    height: 60,
+    height: 80,
     width: 120,
+    resizeMode: "contain",
   },
 
   headline: {

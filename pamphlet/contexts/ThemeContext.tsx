@@ -9,21 +9,16 @@ type ThemeContextType = {
 };
 
 const ThemeContext = createContext<ThemeContextType | null>(null);
+export type ColorScheme = "light" | "dark";
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const systemScheme = useColorScheme();
-  const [scheme, setScheme] = useState<"light" | "dark">(
-    systemScheme ?? "light"
-  );
+  const [scheme, setScheme] = useState<ColorScheme>("dark");
 
-  const toggleTheme = () => {
-    setScheme((prev) => (prev === "light" ? "dark" : "light"));
-  };
-
-  const colours = scheme === "light" ? darkColours : lightColours;
+  const colours = scheme === "light" ? lightColours : darkColours;
 
   return (
-    <ThemeContext.Provider value={{ scheme, colours, toggleTheme }}>
+    <ThemeContext.Provider value={{ colours, scheme, setScheme }}>
       {children}
     </ThemeContext.Provider>
   );

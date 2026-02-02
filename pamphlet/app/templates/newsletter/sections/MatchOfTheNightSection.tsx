@@ -15,9 +15,13 @@ type MatchItem = {
 
 type Props = {
   matches: MatchItem[];
+  colours?: any;
 };
 
-export default function MatchOfTheNightSection({ matches }: Props) {
+export default function MatchOfTheNightSection({
+  matches,
+  colours: overrideColours,
+}: Props) {
   const { colours } = useTheme();
 
   // Find the highest rated match
@@ -27,51 +31,63 @@ export default function MatchOfTheNightSection({ matches }: Props) {
   );
 
   return (
-    <Grid container spacing={1.5} alignItems="center">
+    <Grid container spacing={1} alignItems="center">
       <Grid item size={2}>
         <Image
           source={require("../../../../assets/SW_Illustrated_Logo.png")}
-          style={{ height: 200, width: "100%", objectFit: "contain" }}
+          style={{ height: 100, width: "100%" }}
           resizeMode="contain"
         />
       </Grid>
-      <Grid item size={1.5}>
+      <Grid item size={2}>
         <Typography
-          variant="h3"
-          sx={{ fontWeight: "bold", textAlign: "justify", marginTop: 2 }}
+          variant="h6"
+          sx={{
+            fontWeight: "bold",
+            textAlign: "center",
+            margin: 2,
+            color: overrideColours?.textPrimary || colours.textPrimary,
+          }}
         >
           SWI's Match of the Night
         </Typography>
       </Grid>
-      <Grid item size={8.5}>
+      <Grid item size={8}>
         <HoverableCard
           style={{
-            backgroundColor: colours.card,
-            padding: 20,
             borderRadius: 16,
-            height: 200,
+            minHeight: 100,
+            borderColor: colours.textPrimary,
+            borderWidth: 2,
           }}
         >
           <Typography
-            variant="h4"
+            variant="h5"
             sx={{
               fontWeight: "bold",
-              marginBottom: 1,
-              alignSelf: "center",
               textAlign: "center",
-              alignContent: "center",
-              justifyContent: "center",
+              marginBottom: 1,
+              color: colours.textPrimary,
             }}
           >
             {match.Header}
           </Typography>
-          {/**<Typography
-            variant="body1"
-            sx={{ textAlign: "center", marginBottom: 1, fontSize: 16 }}
+
+          <StarRating rating={match.Rating || 0} />
+
+          {/* Optional description if you re-enable it later */}
+          {/* 
+          <Typography
+            variant="body2"
+            sx={{
+              textAlign: "center",
+              marginTop: 2,
+              color: colours.textSecondary,
+            }}
           >
             {match.Desc}
-          </Typography>**/}
-          <StarRating rating={match.Rating || 0} />
+          </Typography>
+          */}
         </HoverableCard>
       </Grid>
     </Grid>

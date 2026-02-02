@@ -1,11 +1,10 @@
-import { View, Image, Text } from "react-native-web";
+import { View, Text } from "react-native-web";
 import HoverableCard from "../../../../components/cards/hoverableCard";
 import { useTheme } from "../../../../contexts/ThemeContext";
 import StarRating from "../../../../components/visual/Radio";
 import { newsletterStyles as styles } from "../newsletterStyles";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import { alignContent, height, justifyContent, minHeight } from "@mui/system";
 
 type MatchItem = {
   Header: string;
@@ -19,51 +18,70 @@ type Props = {
 
 export default function MatchesSection({ matches }: Props) {
   const { colours } = useTheme();
+
+  if (!matches || matches.length === 0) return null;
+
   const highest = Math.max(...matches.map((m) => m.Rating || 0));
 
   return (
     <View style={styles.sideStack}>
-      <View style={styles.sectionHeader}>
+      {/* Section Header */}
+      <View
+        style={[
+          styles.sectionHeader,
+          { borderBottomColor: colours.textPrimary },
+        ]}
+      >
         <Text style={[styles.headline, { color: colours.textPrimary }]}>
           Full Matchcard Review
         </Text>
       </View>
 
-      <Grid container spacing={3}>
+      {/* Matches Grid */}
+      <Grid container spacing={3} justifyContent="center" alignItems="stretch">
         {matches.map((item, index) => (
-          <Grid item size={4} key={index}>
+          <Grid
+            item
+            size={4}
+            key={index}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <HoverableCard
               style={{
-                backgroundColor: colours.card,
-                padding: 12,
+                padding: 16,
                 borderRadius: 16,
-                minHeight: 150,
-                alignContent: "center",
-                justifyContent: "center",
+                width: "100%",
+                maxWidth: 300,
+                height: "100%",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "space-between",
+                borderColor: colours.textPrimary,
+                borderWidth: 2,
               }}
             >
               <Typography
-                variant="h5"
-                sx={{ fontWeight: "bold", marginBottom: 1 }}
+                variant="h7"
+                sx={{
+                  fontWeight: "bold",
+                  textAlign: "center",
+                  marginBottom: 1,
+                  color: colours.textPrimary,
+                }}
               >
                 {item.Header}
               </Typography>
-              {/**{item.Rating === highest && (
-                <Typography
-                  sx={{
-                    fontWeight: "bold",
-                    textTransform: "uppercase",
-                    marginBottom: 1,
-                  }}
-                >
-                  SWI's Match of the Night
-                </Typography>
-              )}**/}
+
               <StarRating rating={item.Rating || 0} />
-              {/** **/}
+
               <Typography
-                variant="body1"
-                sx={{ textAlign: "center", marginTop: 2, fontSize: 11 }}
+                variant="body2"
+                sx={{
+                  textAlign: "center",
+                  marginTop: 2,
+                  color: colours.textSecondary,
+                  fontSize: item.Rating === highest ? 12 : 10,
+                }}
               >
                 {item.Desc}
               </Typography>

@@ -5,20 +5,40 @@ import MatchOfTheNightSection from "../templates/newsletter/sections/MatchOfTheN
 import BigMomentSection from "../templates/newsletter/sections/BigMomentSection";
 
 import { strikeBigMoment, topStrikeMoments, strikeData } from "../data";
+import { ImageBackground, StyleSheet } from "react-native";
+import { useEffect } from "react";
+import { useTheme } from "../../contexts/ThemeContext";
 
 export default function StrikeNewsletter() {
+  const { setScheme } = useTheme();
+
+  useEffect(() => {
+    setScheme("dark");
+  }, []);
   return (
-    <Newsletter>
-      <BigMomentSection image={strikeBigMoment} />
+    <ImageBackground
+      source={require("../../assets/STRIKEBG.png")}
+      style={styles.background}
+    >
+      <Newsletter>
+        <BigMomentSection image={strikeBigMoment} />
 
-      <MatchOfTheNightSection matches={strikeData} />
+        <MatchOfTheNightSection matches={strikeData} />
 
-      <MomentsSection
-        logo={require("../../assets/STRIKE.png")}
-        moments={topStrikeMoments}
-      />
+        <MomentsSection
+          logo={require("../../assets/STRIKE.png")}
+          moments={topStrikeMoments}
+        />
 
-      <MatchesSection matches={strikeData} />
-    </Newsletter>
+        <MatchesSection matches={strikeData} />
+      </Newsletter>
+    </ImageBackground>
   );
 }
+
+export const styles = StyleSheet.create({
+  background: {
+    width: 1080,
+    height: 1920, // important for web
+  },
+});

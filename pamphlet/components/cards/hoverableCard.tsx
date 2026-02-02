@@ -77,18 +77,7 @@ const HoverableCard: React.FC<HoverableCardProps> = ({
           style,
         ]}
       >
-        <View
-          style={[
-            styles.content,
-            {
-              backgroundColor: glowActive
-                ? colours.backgroundSecondary
-                : colours.backgroundPrimary,
-            },
-          ]}
-        >
-          {children}
-        </View>
+        <View style={[styles.content]}>{children}</View>
       </Animated.View>
     </Pressable>
   );
