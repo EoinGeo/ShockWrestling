@@ -98,7 +98,6 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     borderWidth: 2,
     elevation: 10,
-    width: "100%",
   },
   content: {
     borderRadius: 18,
