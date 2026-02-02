@@ -61,7 +61,7 @@ export default function MatchesSection({ matches }: Props) {
               }}
             >
               <Typography
-                variant="h7"
+                variant="h6"
                 sx={{
                   fontWeight: "bold",
                   textAlign: "center",
@@ -80,7 +80,7 @@ export default function MatchesSection({ matches }: Props) {
                   textAlign: "center",
                   marginTop: 2,
                   color: colours.textSecondary,
-                  fontSize: item.Rating === highest ? 12 : 10,
+                  fontSize: 14,
                 }}
               >
                 {item.Desc}

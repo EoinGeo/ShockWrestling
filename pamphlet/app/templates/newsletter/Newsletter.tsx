@@ -12,7 +12,9 @@ export default function Newsletter({ children }: Props) {
   return (
     <View style={[styles.canvas, { backgroundColor: colours.background }]}>
       {/* ───── MASTHEAD ───── */}
-      <View style={[styles.masthead, { borderBottomColor: colours.border }]}>
+      <View
+        style={[styles.masthead, { borderBottomColor: colours.textPrimary }]}
+      >
         <Image
           source={require("../../../assets/SW_illustraded_logo_with_wordmark.png")}
           resizeMode="contain"

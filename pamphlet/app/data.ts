@@ -48,5 +48,5 @@ export const strikeData = [
 { Header: "Blue Bird vs Alani Kaiva - 42:22", Desc: "Blue Bird outlasted the Giant Alani Kaiva to move on in the Women's Global Championship tournament ", Rating: 4 },
 { Header: "Natasha Brock vs Adrianna - 51:36", Desc: "Natasha Brock picks up a dominant win over Adrianna ", Rating: 3.5 },
 { Header: "Zach Gold (c) vs Chopper- SWF World Championship-  57:34", Desc: "Zach Gold retains his SWF World Championship in a thrilling victory over Chopper", Rating: 4 },
-{ Header: "10 Person Rumble. Gaz vs Alexi vs Draven vs Rikki Pierce vs SSS vs Duke Warlord vs Luke Mercer vs Sully vs Arik Alexander vs Gavin Belle -  1:08:00", Desc: "This mini rumble to determine who faces Animus for the Global Championship at the Shock Rock Rumble was largely dominated by Alexi in the first half until Arik eliminated him and Sully. Ultimately Gavin Belle entered at 10 and eliminated Arik to become the new #1 contender ", Rating: 4.5 },
+{ Header: "10 Person Rumble. -  1:08:00", Desc: "This rumble for a Global Championship match at Shock Rock was largely dominated by Alexi until Arik eliminated him and Sully. Ultimately Gavin Belle entered at 10 and eliminated Arik to become the new #1 contender ", Rating: 4.5 },
 ];

@@ -13,11 +13,11 @@ export default function CawNewsletter() {
   const { setScheme } = useTheme();
 
   useEffect(() => {
-    setScheme("dark");
+    setScheme("light");
   }, []);
   return (
     <ImageBackground
-      source={require("../../assets/CAWBG.png")}
+      source={require("../../assets/CAWBG2.png")}
       style={styles.background}
     >
       <Newsletter>
