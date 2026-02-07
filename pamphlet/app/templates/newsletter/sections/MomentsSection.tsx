@@ -27,7 +27,7 @@ export default function MomentsSection({ logo, moments }: Props) {
       <View
         style={[
           styles.sectionHeader,
-          { marginBottom: 16, borderBottomColor: colours.textPrimary },
+          { marginBottom: 8, borderBottomColor: colours.textPrimary },
         ]}
       >
         <Text style={[styles.headline, { color: colours.textPrimary }]}>
@@ -46,7 +46,7 @@ export default function MomentsSection({ logo, moments }: Props) {
           >
             <HoverableCard
               style={{
-                padding: 16,
+                padding: 8,
                 borderRadius: 16,
                 height: "100%",
                 width: "100%",

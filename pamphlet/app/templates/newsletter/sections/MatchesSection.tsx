@@ -48,9 +48,8 @@ export default function MatchesSection({ matches }: Props) {
           >
             <HoverableCard
               style={{
-                padding: 16,
+                padding: 8,
                 borderRadius: 16,
-                width: "100%",
                 maxWidth: 300,
                 height: "100%",
                 display: "flex",

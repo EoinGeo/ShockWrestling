@@ -26,7 +26,7 @@ export const newsletterStyles = StyleSheet.create({
   stack: {
     display: "flex",
     flexDirection: "column",
-    gap: 16,
+    gap: 8,
     flexShrink: 0,
   },
 
