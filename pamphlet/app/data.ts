@@ -1,7 +1,8 @@
 // CAW-related exports (not applicable for this Strike event)
 export const topCawMoments = [
-    { Header: "The Flameborn Chronicles", Desc: "After Steven won his match, 'Filthy' Flame came out to flaunt in Steven's face as Steven cannot touch him until the Shock Rock Rumble, little did Flame know Madz, Steven's fiancée was waiting in the wings and attacked Flame.", Rating: 4 },
-{ Header: "Heartbreak Kip", Desc: "During his match against Germ, Rodkip was attacked from behind by his close friend (SWI has been informed they were never actually dating) Michelle Martinez when she smashed a light tube against his back costing him the SFSG TV Title.", Rating: 5 },
+   { Header: "Robert Goes Ace to Face - 0:16", Desc: "Rob was headed out to the ring to celebrate his title victory but Ace interrupted him to tell Rob that he couldn't beat Nicholas and that Eoin was the one who saved him. Ace announces that Nicholas has to go away for a little bit but that if Rob still holds the ShockWrestling World Championship that Robert will face the most important fight of his life. ", Rating: 4.5 },
+{ Header: "Ashlee announces who she wants to face at Mayhem 4 - 32:38", Desc: "The 2026 Women's Shock Rock Rumble winner Ashlee came out to the ring to announce who she is challenging at Mayhem IV, it is Danielle. Danielle comes down to the ring with the Women's World Championship and announces 'you're on' and then both women were attacked by a masked individual. ", Rating: 5 },
+{ Header: "Sean Payne and Patrick Cross talk it out in ring - Andre therapy session - 47:53", Desc: "Andre called Pat Cross and Sean Payne down to the ring and says he believes they are one of the very best tag teams in ShockWrestling history and asks them to talk it out. The team shakes hands and looks forward to their next title defense.", Rating: 4 },
 ];
 export const topProvingGroundsMoments = [
     { Header: "It's a Madz World.", Desc: "With a little help from 'The Witch Queen' Relka, Madz defeats Tsuki Adashi to become the new Women's Proving Grounds Champion ", Rating: 4 },
@@ -9,22 +10,25 @@ export const topProvingGroundsMoments = [
 { Header: "The Ruler Of Proving Grounds", Desc: "Russell Tanaka is the new Proving Grounds Champion after an elimination fatal-fourway. After the reigning champion Jacob was eliminated first, the team of Blaze & Diaz set their sights on 'The Tank' but then Blaze turned on Diaz, eliminating him. Tanaka went on to prove why he rules these grounds, emerging victorious.", Rating: 5 },
 ];
 export const topStrikeMoments = [
-   { Header: "Outer Rim Championship vacated", Desc: "JVH called Draven down to the ring and announced that due to the controversy last week and with the 10 year anniversary of this wrestling universe coming up soon they were going to vacate the Outer Rim Championship and find a way to honor the oldest title in ShockWrestling. Draven didn't like that much and choke slammed JVH.", Rating: 5 },
-{ Header: "Animus Attacks!", Desc: "After defeating Big Hamm in a casket match, Gavin Belle is bragging and then comes face to face with Electra Rose. Before Gavin has a chance to do anything to Electra, Animus comes from behind and hits him with a chair putting his challenger on notice ahead of their match at the Shock Rock Rumble!", Rating: 5 },
-{ Header: "Friendkip ", Desc: "JVH calls Rodkip down to the ring and tells Rodkip that he no longer believes in him, proceeding to tell Rodkip that it wasn't Germ who caused Michelle's betrayal, it was JVH himself. JVH then tells Rodkip that he is going to toss him out of the ring personally at the Shock Rock Rumble and that Rodkip is also fired from Strike commentary.", Rating: 5 },
+    { Header: "Pure Poison Infects Strike", Desc: "It's revealed that Pat Cross is the new co-commentator on Friday Night Strike", Rating: 5 },
+    { Header: "Ace Up The Sleeve", Desc: "Ace interrupts the 2026 men's Shock Rock Rumble winner TJ Baker and congratulated him, but said TJ could be better & made him an offer to have TJ become 'his champion'", Rating: 5 },
+    { Header: "The Rebel Is Here", Desc: "TJ Bakers mystery partner was revealed to be Eoin, who came face to face with Ace as he made his way down to the ring. ", Rating: 5 },
 ];
 // Big Moment Images
-export const cawBigMoment = "../images/CAW090226.jpg";
+export const cawBigMoment = "../images/CAW160226.jpg";
 export const provingGroundsBigMoment = "../images/PG110226.jpg";
-export const strikeBigMoment = "../images/Strike130226.jpg";
+export const strikeBigMoment = "../images/Strike200226.jpg";
 export const interviewMoment = "../images/cameronBarker.jpg";
 // All Matches Data
 export const cawData = [
-   { Header: "The Constant vs Payne & Poison - CAW Tag Team Championship match ", Desc: "Payne & Poison retain the CAW Tag Team Championships after Pat Cross hits a Poison Blade and pins Big H", Rating: 4.5 },
-{ Header: "Steven Chronicles vs Evan Stark", Desc: "Steven comes out victorious against the upstart Evan Stark ahead of his match against 'Filthy' Flame Shadow at Shock Rock Rumble", Rating: 4 },
-{ Header: "Eoin vs Matt Giblin - European Championship Match", Desc: "Eoin gets his 54th win without a loss and beats Giblin for the second straight week to retain his European Championship ", Rating: 4.5 },
-{ Header: "Germstar vs Rodkip w/ Michelle Martinez Extreme Rules match - SFSG TV Championship ", Desc: "Germstar is the new SFSG TV Champion after taking advantage of Michelle betraying Rodkip and getting the pin. ", Rating: 4 },
-{ Header: "Relka vs Michelle Martinez vs Ashlee vs Danielle", Desc: "Danielle emerges as the #1 contender for the ShockWrestling Women's World Championship after eliminating her former friend and current rival Ashlee", Rating: 3.5 },];
+   { Header: "Flame Shadow vs Jacob Hendry - 4:31", Desc: "Flame wins via pinfall after catching Jacob with a Flame Cutter onto a chair.", Rating: 4 },
+{ Header: "Germ Stars vs Ultimo Macho - 16:03", Desc: "Ultimo Macho gets the biggest win of his career when by rolling up Germstar for the 3 count.", Rating: 4 },
+{ Header: "Steven Chronicles vs Tyson - 24:13", Desc: "Steven gets a bit of revenge against Tyson by getting the win via count out.", Rating: 3 },
+{ Header: "Rodkip vs Hammer Bros - 3-on-1 handicap match- 37:53", Desc: "Rodkip put up a valiant effort but succumbed to the numbers advantage as the reunited Hammer Bros get the victory.", Rating: 3.5 },
+{ Header: "El Vigilante Violente and Flyboy DJ Holmes vs Velocity Express vs Caleb Blaze and Vince Diaz - 50:25", Desc: "Caleb Blaze & Vinny Diaz are the new #1 contenders for the ShockWrestling Tag Team Championships after emerging victorious in a chaotic match. ", Rating: 4 },
+{ Header: "Ziggy danger vs Zacko- 59:16", Desc: "Ziggy Danger wins via pinfall in a fast paced match. ", Rating: 3 },
+{ Header: "Eoin vs Cameron Barker- European championship - 1:05:28", Desc: "Eoin was originally scheduled to go up against Tyler Frost, however Frost was seen knocked out backstage and Cameron Barker challenged Eoin. Eoin continued his undefeated streak after winning via pinfall. ", Rating: 4 },
+];
 export const provingGroundsData = [
     { Header: "Ian Falcon vs Kyle Murphy - 1:04 ", Desc: "Kyle Murphy picked up the win via pinfall and punches his ticket to join the Shock Rock Rumble", Rating: 3.5 },
 { Header: "Luke Mercer vs Damian Cruz - Rising Stars Championship - 9:12", Desc: "Even after attacking the champ before the match, Luke Mercer fails to get one over on Damian Cruz as Cruz retains his Rising Stars Championship ", Rating: 4.5 },
@@ -35,11 +39,11 @@ export const provingGroundsData = [
 { Header: "Alex Dean vs Aiden Travis - 1:03:22", Desc: "Alex Dean punishes his former tag team partner in a thrilling steel cage match and walks out with the win after pinning Aiden Travis.", Rating: 4.25 },
 { Header: "Jacob vs Caleb Blaze vs Vinny Diaz vs Russell Tanaka - Proving Grounds Championship - 1:14:17", Desc: "After Jacob is eliminated first we are guaranteed a new Proving Grounds Champion. Russell Tanaka manages to avoid falling victim to the team of Blaze & Diaz and becomes the new Proving Grounds Champion! ", Rating: 4.5 },];
 export const strikeData = [
-    { Header: "Blue Bird vs Natasha Brock - 0:32", Desc: "Blue Bird soars to victory and will face Mack at the Shock Rock Rumble for the vacant ShockWave Women's Global Championship ", Rating: 4.5 },
-{ Header: "Golden Bucks vs Beach Bums & The Hammer - 13:36", Desc: "Golden Bucks get the victory after Zach Gold pins The Hammer", Rating: 4 },
-{ Header: "Duke Warlord vs Emerson Rivers - 24:20", Desc: "Emerson Rivers is the new #1 contender for the Community Creations Championship after pinning Duke Warlord", Rating: 3.5 },
-{ Header: "Spencer Saints vs Inferno Jonny vs Skywalker vs Paz vs Chopper - 34:18", Desc: "Skywalker earned his spot in the Shock Rock Rumble after walking away from the 5 pack challenge with a win.", Rating: 4 },
-{ Header: "Animus vs Andre Knight - 46:48", Desc: "Animus went up against Belles right hand man ahead of his title defense this Sunday. Animus walked away with the win, but will he be 100% at the Shock Rock Rumble? ", Rating: 4.5 },
-{ Header: "Sunflower vs Skull European Championship - 59:10", Desc: "Skull captured the European Championship after sneakily using a bat against Sunflower and pinning her. ", Rating: 3.5 },
-{ Header: "Gavin Belle vs Big Hamm - Casket Match  - 1:05:42", Desc: "Gavin Belle sent Big Hamm six feet under after closing the casket building momentum for the Shock Rock Rumble", Rating: 4.5 },
+    { Header: "Dawn Holloway vs Skull Galaxy - European Championship 4:46", Desc: "Skull retains the Women's European Championship via pinfall. ", Rating: 3 },
+{ Header: "Samoan Supers vs Damian Cruz & Russell Tanaka - 14:23", Desc: "Cruz & Tanaka pick up a very impressive victory with Russell getting the pinfall. ", Rating: 3.5 },
+{ Header: "Skywalker vs Jay Wolf - 21:38", Desc: "Skywalker defeats the Community Creations Champion Jay Wolf in a non title match after hitting an impressive series of kicks.", Rating: 3.5 },
+{ Header: "Inferno Jonny vs Cameron Jones - 30:45", Desc: "Cameron Jones picks up the win debuting his new persona. ", Rating: 3 },
+{ Header: "Golden Bucks vs Vengeance - 37:10", Desc: "Vengeance steals a win as it appears that the referee missed a Ricky Star kick out. ", Rating: 2 },
+{ Header: "TJ Baker & Eoin vs Kevin Page & Kyle Murphy - 42:23", Desc: "Eoin is TJs mystery partner staring down Ace on his way out to the ring. Eoin & TJ win a chaotic tag match after TJ rolls up Kyle Murphy", Rating: 4.5 },
+{ Header: "Arik Alexander vs Emerson Rivers vs Judgement vs Zach Gold - #1 Contender for Shockwave Global Championship - 1:00:25", Desc: "Emerson Rivers becomes the new #1 Contender after hitting a 5 Petal Frog Splash on Judgement and getting the pin. ", Rating: 4.5 },
 ];

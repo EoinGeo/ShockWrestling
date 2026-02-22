@@ -78,7 +78,7 @@ export default function MomentsSection({ logo, moments }: Props) {
                   textAlign: "center",
                   marginTop: 2,
                   color: colours.textSecondary,
-                  fontSize: 16,
+                  fontSize: 14,
                 }}
               >
                 {item.Desc}
