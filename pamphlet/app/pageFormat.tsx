@@ -64,7 +64,20 @@ export default function PageFormat() {
         >
           PG Newsletter
         </Link>
-
+        <Link
+          href="/newsletters/snceNewsletter"
+          style={{
+            padding: "12px 24px",
+            fontSize: 16,
+            cursor: "pointer",
+            backgroundColor: "#eee",
+            borderRadius: 6,
+            textDecoration: "none",
+            color: "#000",
+          }}
+        >
+          SNCE Newsletter
+        </Link>
         <Link
           href="/newsletters/strikeNewsletter"
           style={{
