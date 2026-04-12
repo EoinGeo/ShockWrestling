@@ -40,7 +40,7 @@ export default function MomentsSection({ logo, moments }: Props) {
         {moments.map((item, index) => (
           <Grid
             item
-            size={6}
+            size={4}
             key={index}
             sx={{ display: "flex", justifyContent: "center" }}
           >
@@ -50,7 +50,7 @@ export default function MomentsSection({ logo, moments }: Props) {
                 borderRadius: 16,
                 height: "100%",
                 width: "100%",
-                maxWidth: 400,
+                maxWidth: 300,
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "space-between",

@@ -1,31 +1,30 @@
 // CAW-related exports (not applicable for this Strike event)
 export const topCawMoments = [
-   { Header: "Backstage Heat", Desc: "Sean Payne and Steven were seen arguing about the results of the battle royale and GM Andre Pinning Roberts put them in an impromptu SFSG TV Title #1 Contenders match. )", Rating: 4 },
-{ Header: "Hell in a Cell?! ", Desc: "Robert Ballantyne and Nicholas came face to face in the ring with the only words uttered between 'Hell in a Cell' ", Rating: 4 },
-];
+   { Header: "The 1%", Desc: "After Adams win, Germ and the rest of Helix hit the ring and attack Adam. Germ has found his new Army. ", Rating: 4 },
+{ Header: "KVHs Choice.", Desc: "Killa comes down to make her decision and says she is making the Women's World Championship a triple threat but is interrupted by Mack, whose spot Killa stole in the elimination chamber. ", Rating: 4.5 },
+{ Header: "JVHs Snare Trap", Desc: "JVH lured Rodkip down to the ring with a promise of a match against 'Filthy' Flame for the Blockbuster Championship but then ambushed him and left him in a heap on the ramp. ", Rating: 5 },];
 export const topProvingGroundsMoments = [
     { Header: "It's a Madz World.", Desc: "With a little help from 'The Witch Queen' Relka, Madz defeats Tsuki Adashi to become the new Women's Proving Grounds Champion ", Rating: 4 },
 { Header: "Vigilante Zooms ", Desc: "El Vigilante Violente defeated Ziggy Danger to win his first ever singles championship here in ShockWrestling", Rating: 4 },
 { Header: "The Ruler Of Proving Grounds", Desc: "Russell Tanaka is the new Proving Grounds Champion after an elimination fatal-fourway. After the reigning champion Jacob was eliminated first, the team of Blaze & Diaz set their sights on 'The Tank' but then Blaze turned on Diaz, eliminating him. Tanaka went on to prove why he rules these grounds, emerging victorious.", Rating: 5 },
 ];
 export const topStrikeMoments = [
-   { Header: "Lines in the Sky", Desc: "TJ Baker opens the show to address The Nest attacking him last week and challenges both Talon and Lucky Jackson to matches in consecutive weeks.", Rating: 4.5 },
-{ Header: "Luck of the Draw", Desc: "JVH put a bunch of names in a hat and chose one by random to challenge Animus in the main event. That man was Spencer Saints!", Rating: 4.5 },];
+   { Header: "GO RODKIP", Desc: "As JVH is making an announcement regarding the PWF Championship, Rodkip hits the ring to get revenge on JVH for the attack on CAW", Rating: 5 },
+{ Header: "The Nest Swoops In", Desc: "After TJ Baker retains the PWF Championship, Animus started to walk down the ramp only for The Nest to attack both of them. ", Rating: 4.5 },
+{ Header: "Vengeance Strikes", Desc: "Aiden Albright attacked Emerson Rivers backstage ahead of his match against Zach Gold paving the way for Gavin Belle to steal his spot in the Community Creations Championship match.", Rating: 5 },];
 // Big Moment Images
-export const cawBigMoment = "../images/CAW160326.jpg";
+export const cawBigMoment = "../images/CAW300326.jpg";
 export const provingGroundsBigMoment = "../images/PG110226.jpg";
-export const strikeBigMoment = "../images/Strike190326.jpg";
+export const strikeBigMoment = "../images/Strike030426.jpg";
 export const interviewMoment = "../images/cameronBarker.jpg";
 // All Matches Data
 export const cawData = [
-   { Header: "Chamber Qualifier Battle Royal (Flame Shadow, Steven Chronicles, Big H, Zacko, Sean Payne, Tyler Frost, Cameron Barker, Jacob Hendry) - 0:25", Desc: "The final two men left ended up being Steven and Flame, after multiple near eliminations Flame managed to secure his spot in the elimination chamber ", Rating: 4 },
-{ Header: "Flyboy DJ Holmes vs Almighty Tundra (c) vs El Vigilante Violente - Zoom Championship - 17:56", Desc: "Flyboy regains the Zoom Championship in a thrilling Zoom match. ", Rating: 3 },
-{ Header: "Aussie Avatar vs The Animal Jason - 21:31", Desc: "Animal Jason demolished Aussie Avatar in a quick match. ", Rating: 2 },
-{ Header: "Fantasma Superior vs Vince Diaz - 27:25", Desc: "Vince Diaz picks up the victory over newcomer Fantasma Superior in what was a back & forth bout. ", Rating: 4 },
-{ Header: "Russell Tanaka vs Pat Cross - 34:36", Desc: "Russell lost his cool and power-bombed Pat onto the steel ring steps and got disqualified. ", Rating: 2.5 },
-{ Header: "Steven Chronicles vs Sean Payne - Winner faces TV champ at Dragons Den - 42:31", Desc: "Ultimo Macho interrupted the match and attacked both men resulting in a draw.  ", Rating: 2.5 },
-{ Header: "Eoin vs Ziggy Danger - 48:40", Desc: "An exciting match that ended in a no contest as Vittorio Grau attacked both men. ", Rating: 4 },
-{ Header: "Rodkip vs Germ Star (c) - TV championship - 57:41", Desc: "A highly entertaining match with one of the craziest endings you'll see. Germ retains the TV Title as he managed to get out the door seconds before Rodkip feet touched the ground. ", Rating: 5 },
+  { Header: "Max Marshall & Fantasma Superior vs The Camerons - 4:32", Desc: "The Cameron's notch their first win as a team taking down Fantasma del Futuro.", Rating: 3 },
+{ Header: "Sunflower vs Mariposa vs Nicole Fox - 14:50", Desc: "Mariposa gets a huge win as she gets a pinfall victory over former Women's World Champion Nicole Foxx", Rating: 4 },
+{ Header: "Johnny Inferno vs Main Event Adam - 24:12", Desc: "Main Event Adam gets a big win on his return to Monday Night CAW", Rating: 3.5 },
+{ Header: "Ziggy Danger vs Big H - 34:20", Desc: "Big H defeats Ziggy Danger after an assist from Ace. ", Rating: 4 },
+{ Header: "Steven Chronicles vs Sean Payne (c) - Shock Wrestling So Far So Good TV Championship - 49:38", Desc: "Steven Chronicles makes Sean Payne tap out to The Chronicle to capture the So Far So Good TV Title! ", Rating: 4 },
+{ Header: "Eoin vs Jovon - 1:03:46", Desc: "Eoins undefeated streak keeps rolling as he defeats a returning Jovon.", Rating: 4.5 },
 ];
 export const provingGroundsData = [
     { Header: "Ian Falcon vs Kyle Murphy - 1:04 ", Desc: "Kyle Murphy picked up the win via pinfall and punches his ticket to join the Shock Rock Rumble", Rating: 3.5 },
@@ -37,15 +36,12 @@ export const provingGroundsData = [
 { Header: "Alex Dean vs Aiden Travis - 1:03:22", Desc: "Alex Dean punishes his former tag team partner in a thrilling steel cage match and walks out with the win after pinning Aiden Travis.", Rating: 4.25 },
 { Header: "Jacob vs Caleb Blaze vs Vinny Diaz vs Russell Tanaka - Proving Grounds Championship - 1:14:17", Desc: "After Jacob is eliminated first we are guaranteed a new Proving Grounds Champion. Russell Tanaka manages to avoid falling victim to the team of Blaze & Diaz and becomes the new Proving Grounds Champion! ", Rating: 4.5 },];
 export const strikeData = [
-  { Header: "The Spoiler Mack vs Mariposa - Chamber Qualifier - 4:17", Desc: "Mack Daddy wins and earns her spot in the Elimination Chamber ", Rating: 4 },
-{ Header: "Irvin Jago vs Arik Alexander - 11:55", Desc: "Vengeances' newest recruit Irvin Jago gets a win in his debut after Gavin Belle got involved. ", Rating: 3.5 },
-{ Header: "Golden Bucks (c) vs Vengeance - Shock Tag Team Championships - 19:00", Desc: "The Golden Bucks retain their championships after both Ricky and Beau were able to score falls.", Rating: 4.5 },
-{ Header: "Golden Bucks (Zach Gold and Skywalker) vs Capps and Paz - 36:09", Desc: "After an argument early on, Zach and Skywalker managed to get on the same page and get the victory.", Rating: 3.5 },
-{ Header: "'The Spirit' Jonathan Barker vs Luke 'Michael' Mercer (c) - Outer Rim Championship - 45:40", Desc: "Luke Mercer successfully defended the Outer Rim championship against an impressive debuting Jonathan Barker", Rating: 3.5 },
-{ Header: "Eoin (c) vs Brad Bishop - 56:16", Desc: "Eoins impressive undefeated streak keeps rolling as he gets the pinfall victory. However to note the ref missed Brad grabbing the ropes. ", Rating: 3 },
-{ Header: "Lizard Boy (c) vs Jay Wolf - Chaos Championship - 1:02:34", Desc: "Jay Wolf attacked Lizard Boy with a wrench and then repeatedly attacked him with the steel steps to make quick work of him and capture the Chaos Championship. ", Rating: 1 },
-{ Header: "AJ Evans vs Blue Bird (c) - Women's Global Championship - 1:05:23", Desc: "Blue Bird got the win in a very exciting match after kicking out of 3 Unprettiers and then connecting with a Blue Thunder Bomb.", Rating: 4.5 },
-{ Header: "Old Ben (c) vs Spencer Black - PCW World Championship - 1:14:39", Desc: "Old Ben successfully defends the PCW World Championship against a debuting Spencer Black.", Rating: 3.5 },
-{ Header: "TJ Baker vs Talon - 1:24:09", Desc: "Talon surprises everyone and gets the win over TJ Baker via Count Out", Rating: 3 },
-{ Header: "Spencer Saints vs Animus (c) - Shockwave Global Championship - 1:32:30", Desc: "Animus managed to pull out the victory after being taken to the limit by 'Mr Irrelevant' Spencer Saints. Post match Emerson Rivers attempted to attack Animus but was unsuccessful.", Rating: 4.5 },
-];
+  { Header: "Jay Wolf vs Spencer Saints - 2:53", Desc: "Spencer Saints steals the win after catching Jay Wolf off guard with a roll up. ", Rating: 4 },
+{ Header: "Skywalker vs Brad Bishop - 8:58", Desc: "Skywalker gets the win after catching Brad Bishop with a steel chair shot while the ref was incapacitated. ", Rating: 3 },
+{ Header: "Chopper vs Flint McDagger vs Harry Hale vs Eoin (c) - European Championship - 16:45", Desc: "Eoin retains the European Championship in this 'Oops all UK' fatal fourway. ", Rating: 4 },
+{ Header: "Golden Bucks vs Big Biscuit and Gronel The Goblin - 30:06", Desc: "Golden Bucks get the win via pinfall. ", Rating: 3 },
+{ Header: "MadzTV vs SkullGalaxy - 36:58", Desc: "Madz gets the win and JVH announces that at Saturdays Nights Ladies Night it will be Skull vs Madz for the Women's European Championship.", Rating: 4 },
+{ Header: "Richard Real vs Old Ben (c) - PCW World Championship - 47:37", Desc: "Old Ben plays the classics as he retains the PCW World Championship.", Rating: 3.5 },
+{ Header: "Sheriff Woody vs TJ Baker (c) - PWF world Championship - 56:33", Desc: "TJ Baker retains the PWF Championship via pinfall to build momentum towards Mayhem IV.", Rating: 4.5 },
+{ Header: "Arik Alexander vs Luke 'Space Cowboy' Mercer - Outer Rim Championship - 1:05:07", Desc: "Luke Mercer retains the Outer Rim Championship as the ref calls off the match when Arik takes a rough bump on the outside of the ring.", Rating: 4 },
+{ Header: "Zach Gold (c) vs ̶E̶m̶e̶r̶s̶o̶n̶ ̶R̶i̶v̶e̶r̶s̶ Gavin Belle - Community Creations Championship - 1:12:49", Desc: "Gavin Belle and the rest of Vengeance perfectly execute The Heist of CeeCee as Gavin defeats Zach Gold after an assist from Andre Knight.", Rating: 4.5 },];
