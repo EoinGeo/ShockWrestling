@@ -1,36 +1,35 @@
 // CAW-related exports (not applicable for this Strike event)
 export const topCawMoments = [
-   { Header: "Backstage Brawl", Desc: "Monday Night CAW opens up with the camera’s backstage as Ashlee, Danielle, Killa and Mack are brawling. Andre announces that they will participate in a tag team match later.", Rating: 5 },
-{ Header: "A Golden Ticket ", Desc: "Andre has a major announcement - Tonight’s Main event will decide who is challenging “Filthy” Flame Shadow for the Blockbuster Championship at Mayhem IV. ", Rating: 4.5 },
-{ Header: "Zig Movement hits a Snag", Desc: "Ziggy comes on down to the ring and lays out a Msyhem IV challenge to Ace. Ace comes out, looks Ziggy in the eyes tells him 'I do not accept your challenge'", Rating: 5 },];
+   { Header: "Payne In The Ass - 24:33", Desc: "Sean Payne refuses to leave the ring until he gets another match against Steven Chronicles.Andre gives him what he wants with a catch: He has to beat his next opponent in a submission match, if he wins then his match against Steven at Mayhem IV will ALSO be a submission match.", Rating: 4 },
+{ Header: "Rodkip: Trash? - 36:05", Desc: "Rodkip cuts a promo in the parking lot against JVH before the CEO retaliates by giving Rodkip a brutal beatdown and throwing him in a dumpster, echoing his sister Killa’s attack on Mack. JVH announces after the assault that JVH vs Rodkip at Mayhem IV will be a dumpster match!", Rating: 5 },
+{ Header: "Ace’s Poker Face -54:32", Desc: "As Ace walks away Ziggy calls him a coward and insinuates that the Shock Universe thinks Paploo is better, which clearly strikes a nerve with Ace as he freezes up for a moment.", Rating: 4.5 },];
 export const topProvingGroundsMoments = [
     { Header: "It's a Madz World.", Desc: "With a little help from 'The Witch Queen' Relka, Madz defeats Tsuki Adashi to become the new Women's Proving Grounds Champion ", Rating: 4 },
 { Header: "Vigilante Zooms ", Desc: "El Vigilante Violente defeated Ziggy Danger to win his first ever singles championship here in ShockWrestling", Rating: 4 },
 { Header: "The Ruler Of Proving Grounds", Desc: "Russell Tanaka is the new Proving Grounds Champion after an elimination fatal-fourway. After the reigning champion Jacob was eliminated first, the team of Blaze & Diaz set their sights on 'The Tank' but then Blaze turned on Diaz, eliminating him. Tanaka went on to prove why he rules these grounds, emerging victorious.", Rating: 5 },
 ];
 export const topStrikeMoments = [
-   { Header: "JVHs Favorite Tag Team", Desc: "JVH announces that the main event of tonight's Strike will be The Nest vs TJ Baker and Animus, the first time TJ and Animus have teamed up in almost two years. ", Rating: 5 },
-{ Header: "GAZ RETURNS", Desc: "Gaz makes his return by attacking Spencer Saints after his match and immediately takes the Chaos Championship from his former fan. ", Rating: 4.5 },
-{ Header: "Kill Belle", Desc: "In an act of vengeance (pun intended) for last week, Emerson Rivers attacks Gavin Belle and puts him through a car window before making his way out to the ring for his match. ", Rating: 5 },];
+  { Header: "JVH Announcement - 0:16", Desc: "JVH opens the show by announcing the main event for the night. The Golden Bucks vs The Wings Of Destruction for the Shock Tag Team Titles.", Rating: 5 },
+{ Header: "The Good, The Bad and The Ambulance - 1:03:48", Desc: "Arik Alexander brutally attacks Luke Mercer in the parking lot outside of the stadium! It only ends after Luke is thrown from the top of an ambulance.", Rating: 4.5 },
+{ Header: "JVH Strike Scary Box Raffle - 1:37:00", Desc: "JVH announces that he will be picking the Strike Scary Box match competitors at random from a hat also including Proving Grounds competitors. The names he draws are: Paz, Max Marshall, Skywalker, Capps, Duke Warlord, Alex Dean, Jonathan Barker and El Vigilante Violente. ", Rating: 5 },
+{ Header: "The Boys Are Back In Town", Desc: "After being separated from each other since 2024, The Wings Of Destruction manage to secure a win against The Golden Bucks to become three time Shock Tag Team Champions. Sharing a quick nod of respect before the screen cuts to black ahead of their Mayhem IV Main Event.", Rating: 5 },];
 // Big Moment Images
-export const cawBigMoment = "../images/CAW060426.jpg";
+export const cawBigMoment = "../images/CAW130426.jpg";
 export const provingGroundsBigMoment = "../images/PG110226.jpg";
-export const strikeBigMoment = "../images/Strike100426.jpg";
+export const strikeBigMoment = "../images/Strike170426.jpg";
 export const interviewMoment = "../images/cameronBarker.jpg";
 // All Matches Data
 export const cawData = [
-  { Header: "The Sock Puppets vs The Camerons - 1:07", Desc: "The Cameron's get the win after Cameron Jones forces The Blue Sock to tap out. ", Rating: 3 },
-{ Header: "Max Marshall, Fantasma Superior, and Almighty Tundra vs Helix - 10:53", Desc: "Helix gets their first trio win after Vinny Diaz rolls up All Mighty Tundra", Rating: 3.5 },
-{ Header: "Pat Cross vs The Great Luc - CAW Scary Box Qualifier - 19:48", Desc: "Pat Cross sets his eyes on his own fairytale ending by pinning Luc and earning his entry into the CAW Scary Box", Rating: 4 },
-{ Header: "Tyler Frost vs Fantasma De Dinero - Zoom match - 27:42", Desc: "Tyler Frost fends off Fantasma De Dinero to retain the Zoom Championship.", Rating: 4 },
-{ Header: "Zacko vs Flyboy DJ Holmes - CAW Scary Box Qualifier - 35:26", Desc: "Ya Moms Favorite Wrestler Zacko punches the ticket to the Scary Box after getting the pinfall victory", Rating: 3.5 },
-{ Header: "Vittorio Grau vs Big H - CAW Scary Box - 40:16", Desc: "Vittorio pulls off an upset against Big H and qualifies for the CAW Scary Box.", Rating: 3 },
-{ Header: "Ultimo Macho vs Steven Chronicles - 44:52", Desc: "Steven Chronicles forces Ultimo Macho to tap out but post match is attacked by Sean Payne. ", Rating: 4 },
-{ Header: "Nicole Foxx vs Aj Evans - Women’s Scary Box Qualifier - 58:05", Desc: "Nicole Foxx defeats AJ Evans to enter the Womens Scary Box", Rating: 4 },
-{ Header: "Eoin vs Jindrak - 1:11:41", Desc: "Eoin keeps the streak alive after hitting Jindrak with a Coup De Grace against the steel steps. After the match Nicholas attacks Eoin. ", Rating: 4 },
-{ Header: "Danielle and Killa Vaughn Hollywood vs 'The Spoiler' Mack and Queen Ashlee - 1:21:31", Desc: "Danielle and Killa get the win in their first time teaming since Killas Prophets disbanded. ", Rating: 4 },
-{ Header: "Rodkip vs Russell Tanaka vs Jacob Hendry vs Logan Luscious vs Rob - Blockbuster golden ticket Ladder Match - 1:33:37", Desc: "Robert Ballantyne secures the golden ticket and will challenge 'Filthy' Flame Shadow for the Blockbuster World Championship at Mayhem IV", Rating: 4.5 },
-];
+  { Header: "Filthy Flame Shadow vs Furiosa - 0:21", Desc: "After a Flame Cutter onto a steel chair “Filthy” Flame Shadow secures the win against Furiosa. As he prepares for another attack after the bell Robert runs into the ring and stops him.", Rating: 2 },
+{ Header: "Sam Hudson vs Mariposa - Women’s Scary Box Qualifier - 7:41", Desc: "A dominant performance by Mariposa ends with her locking in her spot for the Women’s Scary Box and securing her place at Mayhem IV", Rating: 4 },
+{ Header: "Delilah Shields vs Madztv - Women’s TV championship tournament - 14:54", Desc: "After a match where Shields held the advantage for the majority, Madztv picks up the win and moves to the next round of the TV TItle tournament. Although the match does end in controversy as Delilah had her feet in the ropes.", Rating: 3 },
+{ Header: "Hieu vs Sean Payne - Submission Match - 26:17", Desc: "Sean makes quick work of Hieu using a Payne-ful Ending into a sleeper hold, which makes Sean Payne vs Steven Chronicles official for Mayhem IV", Rating: 4.5 },
+{ Header: "La Copia vs Big H - 30:19", Desc: "Andre’s newest signing La Copia is thrown into the fire immediately against Big H. La Copia puts up more of a fight that expected but falls victim to Big H’s running power bomb", Rating: 3 },
+{ Header: "Patrick Cross vs Vittorio Grau vs Zacko - 37:49", Desc: "After an evenly fought match between all three competitors Zacko steals the win by pinning Vittorio Grau, showing just how far into Pat’s head he truly is.", Rating: 4.5 },
+{ Header: "Ziggy vs The Hammer - Scary Box Qualifier - 46:25", Desc: "After Ziggy hits his Zig Kick on The Hammer, Ace grabs Ziggy and interferes in the match! The interruption allows The Hammer to get the upper hand and secure his spot in the CAW Scary Box match.", Rating: 4 },
+{ Header: "Caleb Blaze vs Main Event Adam - 56:14", Desc: "Even with Germ’s attempted interference attempts Main Event Adam secures the win after a reversal of pins between the two competitors.", Rating: 4 },
+{ Header: "Cameron Barker vs Damian Cruz - 1:08:18", Desc: "After Cameron Jones and Russel Tanaka both involve themselves in the match (and both get thrown out by the ref) Cameron Barker gets the pin on Damian Cruz after a power bomb onto the barricade injures Damian’s shoulder.", Rating: 4 },
+{ Header: "Eoin (c) vs Tyler Frost - European championship (special guest referee Nicholas) - 1:18:01", Desc: "Even with Nicholas as the special guest referee Eoin continues his streak. Nicholas’s abuse of his referee powers compromises his and Ace’s plan to kill Eoin’s momentum going into the main event of Night 1 of Mayhem IV", Rating: 5 },];
 export const provingGroundsData = [
     { Header: "Ian Falcon vs Kyle Murphy - 1:04 ", Desc: "Kyle Murphy picked up the win via pinfall and punches his ticket to join the Shock Rock Rumble", Rating: 3.5 },
 { Header: "Luke Mercer vs Damian Cruz - Rising Stars Championship - 9:12", Desc: "Even after attacking the champ before the match, Luke Mercer fails to get one over on Damian Cruz as Cruz retains his Rising Stars Championship ", Rating: 4.5 },
@@ -41,12 +40,15 @@ export const provingGroundsData = [
 { Header: "Alex Dean vs Aiden Travis - 1:03:22", Desc: "Alex Dean punishes his former tag team partner in a thrilling steel cage match and walks out with the win after pinning Aiden Travis.", Rating: 4.25 },
 { Header: "Jacob vs Caleb Blaze vs Vinny Diaz vs Russell Tanaka - Proving Grounds Championship - 1:14:17", Desc: "After Jacob is eliminated first we are guaranteed a new Proving Grounds Champion. Russell Tanaka manages to avoid falling victim to the team of Blaze & Diaz and becomes the new Proving Grounds Champion! ", Rating: 4.5 },];
 export const strikeData = [
-  { Header: "Kent Harnage vs Old Ben (c) - PCW World Championship - 1:14", Desc: "Old Ben successfully defends the PCW World Championship against Kent Harnage. ", Rating: 4 },
-{ Header: "Spencer Saints vs Jay Wolf vs Lizard Boy (c) - Chaos Championship - 12:46", Desc: "Spencer Saints gets the pin on Lizard Boy and captures the Chaos Championship ", Rating: 3 },
-{ Header: "Minnie Dixon vs Trixie Kaneki - Women's Scary Box Qualifier - 20:18", Desc: "Trixie Kaneki demolishes Minnie Dixon en route to qualifying for the Womens Scary Box match.", Rating: 3.5 },
-{ Header: "Harry Hale vs Johnny Inferno vs The Animal Jason vs Brad Bishop - 26:51", Desc: "The Animal Jason pins Brad Bishop after hitting a Coup De Grace ", Rating: 3.5 },
-{ Header: "Golden Bucks vs Vengeance - 4-on-4 elimination - 37:16", Desc: "Irvin Jago hits Zach Gold with a Spiral Bomb and then let's Gavin Belle get the decisive pin on Zach. ", Rating: 4.5 },
-{ Header: "Capps vs Luke Mercer (c) - Outer Rim Championship - 54:04", Desc: "The match is called off after Arik Alexander walks down the ramp and Luke and Arik start brawling.", Rating: 4 },
-{ Header: "Logan Luscious vs Emerson Rivers - 1:03:48", Desc: "Moments after attacking Gavin Belle backstage, Emerson Rivers defeats his friend Logan Luscious after hitting a trust fall. ", Rating: 4 },
-{ Header: "Eoin vs Darth Maul - 1::12:32", Desc: "Eoin-Wan Kenobi stood tall and remained undefeated after a brutal match against Darth Maul. ", Rating: 4.5 },
-{ Header: "The Nest vs The Wings Of Destruction? (TJ Baker & Animus) - 1:26:01", Desc: "TJ Baker and Animus' chemistry is still as good as it used to be as they swiftly handled The Nest. Post Match TJ Baker pushed Animus away and left the ring. ", Rating: 4.5 },];
+  { Header: "Max Marshall vs Alex Dean - 1:01", Desc: "Alex Dean takes advantage of his gained momentum to put down Max Marshall as he puts on an unstoppable performance in the second half of the match.", Rating: 3.5 },
+{ Header: "Jay Wolf and Relka vs Spencer Saints and Sam Hudson - 6:22", Desc: "Jay and Relka’s chemistry is too much for Spencer and Sam to handle in an explosive mixed gender match.", Rating: 4 },
+{ Header: "Sierra Stone vs Michelle Martinez - Women's Scary Box Qualifier - 18:59", Desc: "Michelle picks up the win in a high speed back and forth match with a South Of Heaven Chokeslam that puts her on a collision course with the Women’s Scary Box match at Mayhem IV.", Rating: 3.5 },
+{ Header: "Raymond Knox vs Ryan Rizal - 27:03", Desc: "Although Ryan Rizal picked up the win Raymond Knox also put up an excellent showing in a fantastic debut for two new superstars!", Rating: 4 },
+{ Header: "Natasha Brock vs Adrienne Nemeth - Women's TV Championship Tournament - 37:01", Desc: "Adrienne Nemth takes down Natasha Brock to move on in the tournament. Her next opponent will be MadzTV!", Rating: 4 },
+{ Header: "Gabriel Kade vs Old Ben (c) - PCW World Championship - 44:58", Desc: "PCW original Gabriel Kade can’t quite get the job done after a hard fought match against Old Ben.", Rating: 4.5 },
+{ Header: "The Animal Jason vs Brad Bishop - Knockout Match - 54:43", Desc: "Brad Bishop does what many thought to be impossible and knocks out The Animal Jason with a headbutt into a brutal throw against the mat!", Rating: 3.5 },
+{ Header: "Harry Hale vs Jay Pierre - 1:06:19", Desc: "In a very fast match Harry Hale prevails over Jay Pierre in a dominant performance.", Rating: 4 },
+{ Header: "Emerson Rivers vs Zach Gold - 1:13:25", Desc: "The Flowerchild and The Golden Boy collide in a violent and hard fought match that is unfortunately cut short by the interference of Gavin Belle. It’s then announced all three will compete for the Community Creations Championship at Mayhem IV!", Rating: 4.5 },
+{ Header: "Eoin vs Logan Luscious - 1:26:59", Desc: "In a non title match Logan Luscious fails to takedown Eoin who advances his streak.", Rating: 4 },
+{ Header: "Capps vs El Vigilante Violente vs Paz vs Duke Warlord vs Jonathon Barker - Fatal 5-way - 1:39:09", Desc: "Duke Warlord manages a surprising win in a chaotic impromptu Fatal Five Way match with some of the competitors of the Strike Scary Box match at Mayhem.", Rating: 4 },
+{ Header: "The Wings of Destruction! vs Golden Bucks (c) - Shock Tag Team Championships - 1:50:27", Desc: "TJ Baker and Animus find themselves in rhythm for a second week in a row as they take down The Golden Bucks in a high energy tag team match.", Rating: 5 },];
