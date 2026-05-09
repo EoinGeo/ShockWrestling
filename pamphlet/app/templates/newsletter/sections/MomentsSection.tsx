@@ -21,7 +21,24 @@ type Props = {
 
 export default function MomentsSection({ logo, moments }: Props) {
   const { colours } = useTheme();
-
+  // Decide Grid size and card max width based on number of items
+  const getLayout = (count: number) => {
+    switch (count) {
+      case 2:
+        return { gridSize: 6, maxWidth: 400 };
+      case 3:
+        return { gridSize: 4, maxWidth: 300 };
+      case 4:
+        return { gridSize: 3, maxWidth: 200 };
+      default:
+        // Fallback for any other number of items
+        return {
+          gridSize: Math.max(12 / count, 3),
+          maxWidth: 300,
+        };
+    }
+  };
+  const { gridSize, maxWidth } = getLayout(moments.length);
   return (
     <View>
       <View
@@ -40,7 +57,7 @@ export default function MomentsSection({ logo, moments }: Props) {
         {moments.map((item, index) => (
           <Grid
             item
-            size={6}
+            size={gridSize}
             key={index}
             sx={{ display: "flex", justifyContent: "center" }}
           >
@@ -50,7 +67,7 @@ export default function MomentsSection({ logo, moments }: Props) {
                 borderRadius: 16,
                 height: "100%",
                 width: "100%",
-                maxWidth: 400,
+                maxWidth: maxWidth,
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "space-between",
