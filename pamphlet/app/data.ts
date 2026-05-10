@@ -1,37 +1,32 @@
 // CAW-related exports (not applicable for this Strike event)
 export const topCawMoments = [
-   { Header: "Legends Gentleman’s Battle Royal", Desc: "JVH announces a Battle Royal where the winner will take on either the World or Globa champion on the series premiere of Wednesday Night Wild!", Rating: 4 },
-{ Header: "Payneful Ending", Desc: "Steven takes advantage of Sean’s celebration and attacks him. He puts Sean into a headlock and Sean taps.", Rating: 4.5 },
-{ Header: "The Hamm Sweats", Desc: "Big H comes out post match and meets Big Hamm in the ring. After a short scuffle Big Hamm brings out a steel chair and beats down Big H before leaping from the top rope!", Rating: 4 },];
+   { Header: "The Constant Strikes Back", Desc: "Ace explains the Constants motives at Mayhem and then gives Robert two gifts. He gives him a new version of the BWI consisting of Sean Payne and the Cameron's as well as remodeling the Blockbuster World Championship as the BWI World Championship.", Rating: 5 },
+{ Header: "Andre is done playing nice - 24:19", Desc: "Andre gives a warning to The Constant. 'No more mister nice GM!'", Rating: 3.5 },
+{ Header: "Andre Attacks Nicholas", Desc: "Post match Nicholas attempted to brutalize Vittorio with a chair but GM Andre Pinning Robert's makes the save and lays the smackdown on Nicholas.", Rating: 5 },];
 export const topProvingGroundsMoments = [
     { Header: "It's a Madz World.", Desc: "With a little help from 'The Witch Queen' Relka, Madz defeats Tsuki Adashi to become the new Women's Proving Grounds Champion ", Rating: 4 },
 { Header: "Vigilante Zooms ", Desc: "El Vigilante Violente defeated Ziggy Danger to win his first ever singles championship here in ShockWrestling", Rating: 4 },
 { Header: "The Ruler Of Proving Grounds", Desc: "Russell Tanaka is the new Proving Grounds Champion after an elimination fatal-fourway. After the reigning champion Jacob was eliminated first, the team of Blaze & Diaz set their sights on 'The Tank' but then Blaze turned on Diaz, eliminating him. Tanaka went on to prove why he rules these grounds, emerging victorious.", Rating: 5 },
 ];
 export const topStrikeMoments = [
- { Header: "Chaos Gauntlet ", Desc: "JVH announces that Gaz will defend his Chaos Championship in a gauntlet match at Mayhem IV. ", Rating: 4 },
-{ Header: "A Rising Ground", Desc: "JVH announces that The Rising Stars Champion and the Proving Grounds Champion will face off at Opening Act and the winner will unify both titles.", Rating: 5 },
-{ Header: "Words of Destruction", Desc: "TJ Baker and Animus meet face to face ahead of quite possibly the biggest match in Mayhem History. They lay all of their feelings out on the table and announce they will face off in a 3 stages of Mustafar match culminating in an inferno match. ", Rating: 5 },];
+ { Header: "JVH gives Skywalker the NEW Proving Grounds Championship - 1:02:12", Desc: "JVH gifts Skywalker with a new Proving Grounds championship that has the star from the Rising Stars championship on it. ", Rating: 4 },
+{ Header: "Emerson Rivers attacks Animus Backstage - 1:45:24", Desc: "Animus was headed down to the ring to shake TJ Bakers hand but was attacked backstage by Emerson Rivers and thrown through multiple windows. ", Rating: 5 },];
 export const topWildMoments = [
   { Header: "Shark in the Waters.", Desc: "After TJ Baker retains his Global Championship the shark comes out and ambushes him. After brutalizing TJ the shark takes off his mask and reveals himself to be TJs friend Emerson Rivers. ", Rating: 5 },];
 // Big Moment Images
-export const cawBigMoment = "../images/CAW270426.jpg";
+export const cawBigMoment = "../images/CAW040526.jpg";
 export const provingGroundsBigMoment = "../images/PG110226.jpg";
-export const strikeBigMoment = "../images/Strike010526.jpg";
+export const strikeBigMoment = "../images/Strike080526.jpg";
 export const wildBigMoment = "../images/Wild060526.jpg";
 export const interviewMoment = "../images/cameronBarker.jpg";
 // All Matches Data
 export const cawData = [
-  { Header: "Dizzy vs Sunflower - Women's TV Title Tournament ", Desc: "Dizzy takes the win over Sunflower to go to Mayhem 4", Rating: 4 },
-{ Header: "Vince Diaz vs Cameron Barker vs Damian Cruz", Desc: "Vince Diaz gets a quick pin on Cameron Barker to steal the match!", Rating: 2 },
-{ Header: "Caleb Blaze vs Cameron Jones vs Russell Tanaka ", Desc: "Caleb Blaze rolls up Cameron Jones as Russell is down to get the win.", Rating: 3.5 },
-{ Header: "Robert vs Perkin", Desc: "In a nostalgic matchup Perkin and Rob go one on one! Rob manages to put away his former tag partner.", Rating: 5 },
-{ Header: "Jimbo vs Filthy Flame Shadow", Desc: "After Rob’s match he celebrates with his formerly estranged brother Jimbo. After Flame comes out and points at Jimbo. GM Andre makes the match official as Flame brutalizes Jimbo while Robert can only watch!", Rating: 2 },
-{ Header: "Fantasma De Dinero vs Jindrak", Desc: "In a matchup that decided who will face Tyler Frost for the Zoom Championship, somehow Dinero overcomes the odds to beat The Barbarian Psycho!", Rating: 3 },
-{ Header: "Sean Payne vs The Great Luc", Desc: "Sean forces Luc to tap out building momentum towards Mayhem 4 where he challenges Steven Chronicles. ", Rating: 3.5 },
-{ Header: "Fantasma Superior vs Big Hamm", Desc: "Big Hamm crushes Fantasma (possibly literally)", Rating: 4 },
-{ Header: "Hammer, Ultimo Macho, Jacob Hendry & Vittorio Grau vs Tyler Frost, DJ Holmes, Zacko & Pat Cross", Desc: "Pat Cross tags in Zacko, but to the shock of everyone Zacko spears Pat allowing Ultimo Macho to steal the win.", Rating: 4 },
-{ Header: "Eoin vs Main Event Adam", Desc: "In what may be Adam’s final CAW he fails to take down Eoin and the streak extends to 78-0", Rating: 5 },];
+  { Header: "Big Hamm vs The Animal Jason - 11:09", Desc: "The Animal Jason gifts Big Hamm a loss for his birthday. ", Rating: 2.5 },
+{ Header: "Asajj Ventress vs Killa (c) - Women’s World Championship - 16:54", Desc: "KVH successfully defends the Women's World Championship against Ventress even avoiding a force choke.", Rating: 3 },
+{ Header: "Harry Hale vs Nyatikali - 25:05", Desc: "Nyatikali gets an impressive win after hitting the YO ", Rating: 4 },
+{ Header: "El Fiesta vs Patrick Cross -  30:37", Desc: "Pat Cross wins after almost cutting El Fiesta in half with a spear.", Rating: 3 },
+{ Header: "Germ Stars vs Gabriel Walker - 35:18", Desc: "Gabriel Walker makes his Shock Exclusive debut by defeating Germ in a thrilling match. ", Rating: 4 },
+{ Header: "Vittorio Grau vs Nicholas - World Championship - 42:09", Desc: "This time Goliath defeats David as Nicholas fends off the rookie Vittorio Grau in an exhilarating match.", Rating: 5 },];
 export const provingGroundsData = [
     { Header: "Ian Falcon vs Kyle Murphy - 1:04 ", Desc: "Kyle Murphy picked up the win via pinfall and punches his ticket to join the Shock Rock Rumble", Rating: 3.5 },
 { Header: "Luke Mercer vs Damian Cruz - Rising Stars Championship - 9:12", Desc: "Even after attacking the champ before the match, Luke Mercer fails to get one over on Damian Cruz as Cruz retains his Rising Stars Championship ", Rating: 4.5 },
@@ -42,14 +37,17 @@ export const provingGroundsData = [
 { Header: "Alex Dean vs Aiden Travis - 1:03:22", Desc: "Alex Dean punishes his former tag team partner in a thrilling steel cage match and walks out with the win after pinning Aiden Travis.", Rating: 4.25 },
 { Header: "Jacob vs Caleb Blaze vs Vinny Diaz vs Russell Tanaka - Proving Grounds Championship - 1:14:17", Desc: "After Jacob is eliminated first we are guaranteed a new Proving Grounds Champion. Russell Tanaka manages to avoid falling victim to the team of Blaze & Diaz and becomes the new Proving Grounds Champion! ", Rating: 4.5 },];
 export const strikeData = [
- { Header: "Darth Maul vs Qui Gon Jinn and Obi Wan (Episode 1) - 2-on-1 Handicap - 0:16", Desc: "Darth Maul emerges victorious against the two Jedi. ", Rating: 4 },
-{ Header: "MadzTV vs Reina De Fuego - Women's TV Championship Tournament (Semi Finals) - 7:56", Desc: "Madz is able to earn her way to Mayhem IV after defeating Reina De Fuego. ", Rating: 4 },
-{ Header: "Golden Bucks vs Frog and Lizard Connection - 16:57", Desc: "The Frog and Lizard Connection win via count out and earn their place in the Strike Tag Team Championship match at Mayhem IV. ", Rating: 3 },
-{ Header: "Lilla & Lotta vs Pretty Talent Assembly - Winners Face the Holloway Sisters at Mayhem 4 - 25:54", Desc: "The PTA take the win and punch their ticket to Mayhem. ", Rating: 3 },
-{ Header: "Eoin vs Chopper - 31:29 ", Desc: "Eoin keeps the streak alive heading into the biggest match of his career. ", Rating: 4 },
-{ Header: "Chopper vs GermStar", Desc: "JVH puts Chopper into a retirement match against Germ after reading a mean tweet. Rodkip comes out and helps Chopper win to save his career. ", Rating: 4.5 },
-{ Header: "Emerson Rivers and Zach Gold vs Vengeance - 49:27", Desc: "Gavin Belle gets a roll up victory after pinning Zach Gold following some miscommunication between Gold and Rivers", Rating: 4.5 },
-{ Header: "Strike Scary Box Gauntlet", Desc: "Max Marshall emerges victorious but the real story of the match is the Star Making performance from Capps almost running the entire gauntlet. ", Rating: 4.5 },];
+ { Header: "Party People vs Frog & Lizard Connection - 0:22", Desc: "The Frog and Lizard Connection keep their momentum as the steam roll the Party People. ", Rating: 3.5 },
+{ Header: "Damian Cruz vs Zach Gold - 7:14", Desc: "Zach Gold gets a hard fought win against Damian Cruz. ", Rating: 4 },
+{ Header: "Himiko vs Dawn Halloway - 19:49", Desc: "Dawn Holloway gets the victory via pinfall.", Rating: 3 },
+{ Header: "Relka & Jay Wolf vs Steven Chronicles & MadzTV - 25:29", Desc: "The House Of Chronicles get the win over Feral Magic", Rating: 4 },
+{ Header: "Vengeance vs Logan Luscious & Ryan Rizal - 41:01", Desc: "Vengeance gets the win after Logan gets hit with a Sister Abigail ", Rating: 3.5 },
+{ Header: "BWI Anarchy vs BWI Constant - If BWI Anarchy lose they disband - 54:21", Desc: "Sean Payne hits the Payneful Ending and gets the 3 count. The BWI Anarchy must disband. ", Rating: 3.5 },
+{ Header: "La Princesa Payasa vs Trixie Kaneki - 1:04:23", Desc: "Trixie Kaneki wins via TKO", Rating: 2 },
+{ Header: "Capps vs Alex Dean - 1:08:59", Desc: "Capps emerges victorious after a really good showing from both men.", Rating: 4.5 },
+{ Header: "Spencer Saints vs GAZ - Extreme Rules Match - 1:17:39", Desc: "Spencer Saints finally gets the win over his former friend GAZ. ", Rating: 3 },
+{ Header: "Jonathan Barker vs Brogan Frericks  - 1:21:17", Desc: "Johnathan Barker fends off an impressive debuting Brogan Frericks.", Rating: 4 },
+{ Header: "Devil Han & Reina de Fuego vs TJ Baker & Blue Bird - 1:31:32", Desc: "Raven and Blue Bird get the win over Devil Han and their student Reina De Fuego in a thrilling main event. ", Rating: 4.5 },];
 export const wildData = [
  { Header: "Andre Pinning Roberts vs Arik Alexander - 2:33", Desc: "Arik Alexander makes quick work of CAW GM Andre in the first ever wild rules match.", Rating: 3 },
 { Header: "Belladonna vs Relka (c) - Chaos Championship - 4:54", Desc: "Relka gets a dominant win after putting Belladonna through two tables at once and hits her finish. ", Rating: 3 },
