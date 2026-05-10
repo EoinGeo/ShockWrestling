@@ -24,6 +24,8 @@ export default function MomentsSection({ logo, moments }: Props) {
   // Decide Grid size and card max width based on number of items
   const getLayout = (count: number) => {
     switch (count) {
+      case 1:
+        return { gridSize: 12, maxWidth: 600 };
       case 2:
         return { gridSize: 6, maxWidth: 400 };
       case 3:

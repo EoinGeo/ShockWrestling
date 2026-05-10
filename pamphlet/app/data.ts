@@ -13,9 +13,7 @@ export const topStrikeMoments = [
 { Header: "A Rising Ground", Desc: "JVH announces that The Rising Stars Champion and the Proving Grounds Champion will face off at Opening Act and the winner will unify both titles.", Rating: 5 },
 { Header: "Words of Destruction", Desc: "TJ Baker and Animus meet face to face ahead of quite possibly the biggest match in Mayhem History. They lay all of their feelings out on the table and announce they will face off in a 3 stages of Mustafar match culminating in an inferno match. ", Rating: 5 },];
 export const topWildMoments = [
-  { Header: "The Rulers vs The Camerons", Desc: "The Rulers and The Camerons put on a fantastic triple threat tag team match with Helix to determine the final spot in the Mayhem IV tag team match. The Rulers come out on top and earn their spot in the Mayhem IV tag team match.", Rating: 4.5 },
-  { Header: "The Golden Bucks vs The Wings Of Destruction", Desc: "The Golden Bucks take advantage of the petty squabbles between the former Wings of Destruction and capture the Strike Tag Team Championships for a second time.", Rating: 4 },
-];
+  { Header: "Shark in the Waters.", Desc: "After TJ Baker retains his Global Championship the shark comes out and ambushes him. After brutalizing TJ the shark takes off his mask and reveals himself to be TJs friend Emerson Rivers. ", Rating: 5 },];
 // Big Moment Images
 export const cawBigMoment = "../images/CAW270426.jpg";
 export const provingGroundsBigMoment = "../images/PG110226.jpg";
@@ -29,10 +27,11 @@ export const cawData = [
 { Header: "Caleb Blaze vs Cameron Jones vs Russell Tanaka ", Desc: "Caleb Blaze rolls up Cameron Jones as Russell is down to get the win.", Rating: 3.5 },
 { Header: "Robert vs Perkin", Desc: "In a nostalgic matchup Perkin and Rob go one on one! Rob manages to put away his former tag partner.", Rating: 5 },
 { Header: "Jimbo vs Filthy Flame Shadow", Desc: "After Rob’s match he celebrates with his formerly estranged brother Jimbo. After Flame comes out and points at Jimbo. GM Andre makes the match official as Flame brutalizes Jimbo while Robert can only watch!", Rating: 2 },
-{ Header: "Fantasia De Dinero vs Jindrak", Desc: "In a matchup that decided who will face Tyler Frost for the Zoom Championship, somehow Dinero overcomes the odds to beat The Barbarian Psycho!", Rating: 3 },
+{ Header: "Fantasma De Dinero vs Jindrak", Desc: "In a matchup that decided who will face Tyler Frost for the Zoom Championship, somehow Dinero overcomes the odds to beat The Barbarian Psycho!", Rating: 3 },
 { Header: "Sean Payne vs The Great Luc", Desc: "Sean forces Luc to tap out building momentum towards Mayhem 4 where he challenges Steven Chronicles. ", Rating: 3.5 },
 { Header: "Fantasma Superior vs Big Hamm", Desc: "Big Hamm crushes Fantasma (possibly literally)", Rating: 4 },
-{ Header: "Hammer, Ultimo Macho, Jacob Hendry & Vittorio Grau vs Tyler Frost, DJ Holmes, Zacko & Pat Cross", Desc: "", Rating: 4 },];
+{ Header: "Hammer, Ultimo Macho, Jacob Hendry & Vittorio Grau vs Tyler Frost, DJ Holmes, Zacko & Pat Cross", Desc: "Pat Cross tags in Zacko, but to the shock of everyone Zacko spears Pat allowing Ultimo Macho to steal the win.", Rating: 4 },
+{ Header: "Eoin vs Main Event Adam", Desc: "In what may be Adam’s final CAW he fails to take down Eoin and the streak extends to 78-0", Rating: 5 },];
 export const provingGroundsData = [
     { Header: "Ian Falcon vs Kyle Murphy - 1:04 ", Desc: "Kyle Murphy picked up the win via pinfall and punches his ticket to join the Shock Rock Rumble", Rating: 3.5 },
 { Header: "Luke Mercer vs Damian Cruz - Rising Stars Championship - 9:12", Desc: "Even after attacking the champ before the match, Luke Mercer fails to get one over on Damian Cruz as Cruz retains his Rising Stars Championship ", Rating: 4.5 },
@@ -52,7 +51,16 @@ export const strikeData = [
 { Header: "Emerson Rivers and Zach Gold vs Vengeance - 49:27", Desc: "Gavin Belle gets a roll up victory after pinning Zach Gold following some miscommunication between Gold and Rivers", Rating: 4.5 },
 { Header: "Strike Scary Box Gauntlet", Desc: "Max Marshall emerges victorious but the real story of the match is the Star Making performance from Capps almost running the entire gauntlet. ", Rating: 4.5 },];
 export const wildData = [
-  { Header: "The Rulers vs The Camerons - Triple Threat Tag Team Match - 1:04", Desc: "The Rulers come out on top in this triple threat tag team match to earn a spot in the Mayhem IV tag team match.", Rating: 4 },
-{ Header: "Helix vs The Rulers vs The Camerons - Triple Threat Tag Team Match - 9:12", Desc: "The Rulers come out on top in this triple threat tag team match to earn a spot in the Mayhem IV tag team match.", Rating: 4.5 },
-{ Header: "The Golden Bucks vs The Wings Of Destruction (TJ Baker and Animus) - Shock Tag Team Championships Steel Cage Match - 19:10", Desc: "The Golden Bucks take advantage of the petty squabbles between the former Wings of Destruction and capture the Strike Tag Team Championships for a second time.", Rating: 4 },
+ { Header: "Andre Pinning Roberts vs Arik Alexander - 2:33", Desc: "Arik Alexander makes quick work of CAW GM Andre in the first ever wild rules match.", Rating: 3 },
+{ Header: "Belladonna vs Relka (c) - Chaos Championship - 4:54", Desc: "Relka gets a dominant win after putting Belladonna through two tables at once and hits her finish. ", Rating: 3 },
+{ Header: "Rodkip vs Jindrak - World Cup Group A Match - 12:42", Desc: "Rodkip steals a win after rolling up Jindrak", Rating: 2 },
+{ Header: "Ryan Rizal vs Chopper - World Cup Group A Match - 19:12", Desc: "Chopper gets an impressive win in round one of the World Cup.", Rating: 4 },
+{ Header: "Hieu vs Russell Tanaka - World Cup Group B Match - 26:56", Desc: "The match ends in a draw as both men are counted out. ", Rating: 3.5 },
+{ Header: "Tyler Frost vs Emerson Rivers - World Cup Group B Match -- 35:05", Desc: "Yet another match ends in a draw after a double count out. ", Rating: 3.5 },
+{ Header: "Filthy Flame Shadow vs Aku Suzuki - World Cup  Group C  Match - 43:01", Desc: "Flame steals the win by rolling up Suzuki", Rating: 4.5 },
+{ Header: "Harry Hale vs Ultimo Macho - World Cup  Group C Match 55:02", Desc: "Harry Hale gets an impressive pinfall victory in the first round of the World Cup.", Rating: 3 },
+{ Header: "Luke Mercer vs Nyatikali - World Cup  Group D Match - 1:01:52", Desc: "Nyatikali wins via TKO in a very impressive match. ", Rating: 5 },
+{ Header: "PAZ vs Aussie Avatar - World Cup  Group D Match - 1:09:45", Desc: "PAZ squashes Aussie Avatar who ironically represented New Zealand.", Rating: 3 },
+{ Header: "Robert Ballantyne (c) vs Savage Oppress - BWI Blockbuster World Championship - 1:13:37", Desc: "Robert Ballantyne successfully defends the BWI Blockbuster World Championship against the winner of the May The 4th rumble Savage Oppress", Rating: 3.5 },
+{ Header: "TJ Baker (c) vs Paploo - Global Championship - 1:22:31", Desc: "TJ Baker retains the ShockWave Global Championship against Paploo in what was a fantastic first main event to Wednesday Night Wild.", Rating: 5 },
 ];

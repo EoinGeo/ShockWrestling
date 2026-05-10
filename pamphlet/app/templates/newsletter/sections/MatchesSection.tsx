@@ -60,7 +60,7 @@ export default function MatchesSection({ matches }: Props) {
               }}
             >
               <Typography
-                variant="h7"
+                variant="h5"
                 sx={{
                   fontWeight: "bold",
                   textAlign: "center",
