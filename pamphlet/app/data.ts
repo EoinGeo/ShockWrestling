@@ -1,32 +1,33 @@
 // CAW-related exports (not applicable for this Strike event)
 export const topCawMoments = [
-   { Header: "The Constant Strikes Back", Desc: "Ace explains the Constants motives at Mayhem and then gives Robert two gifts. He gives him a new version of the BWI consisting of Sean Payne and the Cameron's as well as remodeling the Blockbuster World Championship as the BWI World Championship.", Rating: 5 },
-{ Header: "Andre is done playing nice - 24:19", Desc: "Andre gives a warning to The Constant. 'No more mister nice GM!'", Rating: 3.5 },
-{ Header: "Andre Attacks Nicholas", Desc: "Post match Nicholas attempted to brutalize Vittorio with a chair but GM Andre Pinning Robert's makes the save and lays the smackdown on Nicholas.", Rating: 5 },];
+  { Header: "Ace Tells All", Desc: "Ace reveals that he and Emerson made a deal. If Emerson helped him with Ziggy, Ace would help ruin TJ and Animus’s match at Mayhem. He also promised the Constant and The BWI would be backing Emerson in the World Cup. Andre steps in: Andre interrupts Ace to remind him that he’s not in charge and makes two matches official for the night. Ace and Emerson vs Eoin and Ziggy Danger. And Nicholas defending his European title in a ladder match where The Constant is banned from ringside.", Rating: 5 },
+{ Header: "Helix Grows", Desc: "Germ promises Helix will restructure and raise to the top, promising next week Caleb Blaze will have a new partner. He also issues a challenge to The Cameron’s: If they can beat Caleb and the new member Helix will request to go to Strike", Rating: 4 },
+{ Header: "Payne and Poison Are Not Fine", Desc: "Pat Cross runs us back through the fall of Payne and Poison and offers Sean Payne an opportunity. Challenging him for the TV championship at Galactic Conquest. Sean however attacks Pat in the ring trying to break his arm with a chair. Pat returns fire with a Fairy Tale Ending onto the same chair. Ace accepts the challenge on behalf of The BWI Sponsored By The Constant.", Rating: 4.5 },];
 export const topProvingGroundsMoments = [
     { Header: "It's a Madz World.", Desc: "With a little help from 'The Witch Queen' Relka, Madz defeats Tsuki Adashi to become the new Women's Proving Grounds Champion ", Rating: 4 },
 { Header: "Vigilante Zooms ", Desc: "El Vigilante Violente defeated Ziggy Danger to win his first ever singles championship here in ShockWrestling", Rating: 4 },
 { Header: "The Ruler Of Proving Grounds", Desc: "Russell Tanaka is the new Proving Grounds Champion after an elimination fatal-fourway. After the reigning champion Jacob was eliminated first, the team of Blaze & Diaz set their sights on 'The Tank' but then Blaze turned on Diaz, eliminating him. Tanaka went on to prove why he rules these grounds, emerging victorious.", Rating: 5 },
 ];
 export const topStrikeMoments = [
- { Header: "JVH gives Skywalker the NEW Proving Grounds Championship - 1:02:12", Desc: "JVH gifts Skywalker with a new Proving Grounds championship that has the star from the Rising Stars championship on it. ", Rating: 4 },
-{ Header: "Emerson Rivers attacks Animus Backstage - 1:45:24", Desc: "Animus was headed down to the ring to shake TJ Bakers hand but was attacked backstage by Emerson Rivers and thrown through multiple windows. ", Rating: 5 },];
+ { Header: "Ballantyne Barks at crowd.", Desc: "BWI World Champion makes his way down to the ring and starts berating the crowd as he lists off his reasons for joining up with The Constant. Right before he's about to say something about TJ Baker, Brad Bishop ambushes the BWI champ to the applause of the entire arena.", Rating: 5 },
+{ Header: "Deans Office.", Desc: "Capps was making his way down to the ring and then got absolutely blindsided by Alex Dean after the two have been going back and forth on social media. ", Rating: 5 },
+{ Header: "Hey, I've seen this one before.", Desc: "After TJ Baker nearly survived against Maximus, Emerson walks out with a chair… then just like at Mayhem II ANIMUS ATTACKS & MAKES THE SAVE. ", Rating: 5 },];
 export const topWildMoments = [
   { Header: "Shark in the Waters.", Desc: "After TJ Baker retains his Global Championship the shark comes out and ambushes him. After brutalizing TJ the shark takes off his mask and reveals himself to be TJs friend Emerson Rivers. ", Rating: 5 },];
 // Big Moment Images
-export const cawBigMoment = "../images/CAW040526.jpg";
+export const cawBigMoment = "../images/CAW110526.jpg";
 export const provingGroundsBigMoment = "../images/PG110226.jpg";
-export const strikeBigMoment = "../images/Strike080526.jpg";
-export const wildBigMoment = "../images/Wild060526.jpg";
+export const strikeBigMoment = "../images/Strike150526.jpg";
+export const wildBigMoment = "../images/Wild130526.jpg";
 export const interviewMoment = "../images/cameronBarker.jpg";
 // All Matches Data
 export const cawData = [
-  { Header: "Big Hamm vs The Animal Jason - 11:09", Desc: "The Animal Jason gifts Big Hamm a loss for his birthday. ", Rating: 2.5 },
-{ Header: "Asajj Ventress vs Killa (c) - Women’s World Championship - 16:54", Desc: "KVH successfully defends the Women's World Championship against Ventress even avoiding a force choke.", Rating: 3 },
-{ Header: "Harry Hale vs Nyatikali - 25:05", Desc: "Nyatikali gets an impressive win after hitting the YO ", Rating: 4 },
-{ Header: "El Fiesta vs Patrick Cross -  30:37", Desc: "Pat Cross wins after almost cutting El Fiesta in half with a spear.", Rating: 3 },
-{ Header: "Germ Stars vs Gabriel Walker - 35:18", Desc: "Gabriel Walker makes his Shock Exclusive debut by defeating Germ in a thrilling match. ", Rating: 4 },
-{ Header: "Vittorio Grau vs Nicholas - World Championship - 42:09", Desc: "This time Goliath defeats David as Nicholas fends off the rookie Vittorio Grau in an exhilarating match.", Rating: 5 },];
+  { Header: "Clark Thunder vs The Animal Jason", Desc: "Debuting star Clark Thunder takes on The Animal Jason and pulls off “The Miracle On Kamino” by putting Jason in a rollup and getting the three count!", Rating: 3.5 },
+{ Header: "Flame Shadow Birthday celebration turns into a match with Debuting Blue Hero", Desc: "After being lured out to the ring by the promise of ice cream cake, debuting superstar Blue Hero crashes the party by meeting Flame in the ring. He loses after Flame gets help from the Party People but takes out El Fiesta as he leaves with a Superman Punch.", Rating: 3 },
+{ Header: "Jacob Hendry vs Zacko", Desc: "In a high paced match Zacko gets the win against Jacob with a 4/20 cutter. Securing a match against BWI World Champion Robert Ballentyne on this week’s Wednesday Night Wild.", Rating: 4.2 },
+{ Header: "Pretty Talent Assembly vs Pokedolls", Desc: "Himiko and new talent Lexi assemble to form The Pokedolls however this new team is no match for the PTA.", Rating: 3 },
+{ Header: "Ziggy Danger & Eoin vs Emerson Rivers & LEGO Mace", Desc: "Ace sneaks his way out of the match by sending in his younger clone Mace. However Emerson gets distracted by Eoin allowing Ziggy to get the pin on Mace.", Rating: 5 },
+{ Header: "Ladder Match (Vittorio Grau, Fatasama De Dinero, Jonathan Barker, Gabriel Walker, Nicholas (c)) - Men's European Championship", Desc: "In a brutal ladder match Nicholas defends his European championship however after Germ attacks Gabriel Walker as revenge, Jonathan Barker pulls the upset as he steals the moment from Vittorio Grau and becomes your NEW European Champion.", Rating: 5 },];
 export const provingGroundsData = [
     { Header: "Ian Falcon vs Kyle Murphy - 1:04 ", Desc: "Kyle Murphy picked up the win via pinfall and punches his ticket to join the Shock Rock Rumble", Rating: 3.5 },
 { Header: "Luke Mercer vs Damian Cruz - Rising Stars Championship - 9:12", Desc: "Even after attacking the champ before the match, Luke Mercer fails to get one over on Damian Cruz as Cruz retains his Rising Stars Championship ", Rating: 4.5 },
@@ -37,28 +38,25 @@ export const provingGroundsData = [
 { Header: "Alex Dean vs Aiden Travis - 1:03:22", Desc: "Alex Dean punishes his former tag team partner in a thrilling steel cage match and walks out with the win after pinning Aiden Travis.", Rating: 4.25 },
 { Header: "Jacob vs Caleb Blaze vs Vinny Diaz vs Russell Tanaka - Proving Grounds Championship - 1:14:17", Desc: "After Jacob is eliminated first we are guaranteed a new Proving Grounds Champion. Russell Tanaka manages to avoid falling victim to the team of Blaze & Diaz and becomes the new Proving Grounds Champion! ", Rating: 4.5 },];
 export const strikeData = [
- { Header: "Party People vs Frog & Lizard Connection - 0:22", Desc: "The Frog and Lizard Connection keep their momentum as the steam roll the Party People. ", Rating: 3.5 },
-{ Header: "Damian Cruz vs Zach Gold - 7:14", Desc: "Zach Gold gets a hard fought win against Damian Cruz. ", Rating: 4 },
-{ Header: "Himiko vs Dawn Halloway - 19:49", Desc: "Dawn Holloway gets the victory via pinfall.", Rating: 3 },
-{ Header: "Relka & Jay Wolf vs Steven Chronicles & MadzTV - 25:29", Desc: "The House Of Chronicles get the win over Feral Magic", Rating: 4 },
-{ Header: "Vengeance vs Logan Luscious & Ryan Rizal - 41:01", Desc: "Vengeance gets the win after Logan gets hit with a Sister Abigail ", Rating: 3.5 },
-{ Header: "BWI Anarchy vs BWI Constant - If BWI Anarchy lose they disband - 54:21", Desc: "Sean Payne hits the Payneful Ending and gets the 3 count. The BWI Anarchy must disband. ", Rating: 3.5 },
-{ Header: "La Princesa Payasa vs Trixie Kaneki - 1:04:23", Desc: "Trixie Kaneki wins via TKO", Rating: 2 },
-{ Header: "Capps vs Alex Dean - 1:08:59", Desc: "Capps emerges victorious after a really good showing from both men.", Rating: 4.5 },
-{ Header: "Spencer Saints vs GAZ - Extreme Rules Match - 1:17:39", Desc: "Spencer Saints finally gets the win over his former friend GAZ. ", Rating: 3 },
-{ Header: "Jonathan Barker vs Brogan Frericks  - 1:21:17", Desc: "Johnathan Barker fends off an impressive debuting Brogan Frericks.", Rating: 4 },
-{ Header: "Devil Han & Reina de Fuego vs TJ Baker & Blue Bird - 1:31:32", Desc: "Raven and Blue Bird get the win over Devil Han and their student Reina De Fuego in a thrilling main event. ", Rating: 4.5 },];
+ { Header: "Adrienne Nemeth vs Radical Rachel", Desc: "Adrienne Nemeth defeats Radical Rachel via count out aka the PCW Special", Rating: 2 },
+{ Header: "Zach Gold vs Carlos Danger", Desc: "Zach Gold defeats Carlos Danger fending off the rookie who had an impressive performance in his debut", Rating: 3.5 },
+{ Header: "Dusk vs Xander Blackwood", Desc: "Xander Blackwood def Dusk via pinfall in a duel of debuting superstars.", Rating: 4 },
+{ Header: "Trixie Kaneki vs Sam Hudson", Desc: "Trixie Kaneki gets a big win after hitting a Hay Bail Driver", Rating: 3 },
+{ Header: "Skywalker vs Brogan Frericks", Desc: "Skywalker gets an impressive win over Brogan Frericks after hitting multiple Sky Stomps. ", Rating: 4 },
+{ Header: "Damien Cruz vs Voss Tonor", Desc: "Voss makes a major impression in his debut making Damian Cruz pass out to the Black Dream sleeper hold. ", Rating: 4 },
+{ Header: "Aiden Albright vs Logan Luscious (c) - Outer Rim Championship", Desc: "Logan Luscious overcomes outside interference to retain the Outer Rim championship ", Rating: 4 },
+{ Header: "TJ Baker vs Draven Maximus", Desc: "TJ Baker manages to survive a brutal match against the constants hand picked opponent, a debuting Draven Maximus. ", Rating: 5 },];
 export const wildData = [
- { Header: "Andre Pinning Roberts vs Arik Alexander - 2:33", Desc: "Arik Alexander makes quick work of CAW GM Andre in the first ever wild rules match.", Rating: 3 },
-{ Header: "Belladonna vs Relka (c) - Chaos Championship - 4:54", Desc: "Relka gets a dominant win after putting Belladonna through two tables at once and hits her finish. ", Rating: 3 },
-{ Header: "Rodkip vs Jindrak - World Cup Group A Match - 12:42", Desc: "Rodkip steals a win after rolling up Jindrak", Rating: 2 },
-{ Header: "Ryan Rizal vs Chopper - World Cup Group A Match - 19:12", Desc: "Chopper gets an impressive win in round one of the World Cup.", Rating: 4 },
-{ Header: "Hieu vs Russell Tanaka - World Cup Group B Match - 26:56", Desc: "The match ends in a draw as both men are counted out. ", Rating: 3.5 },
-{ Header: "Tyler Frost vs Emerson Rivers - World Cup Group B Match -- 35:05", Desc: "Yet another match ends in a draw after a double count out. ", Rating: 3.5 },
-{ Header: "Filthy Flame Shadow vs Aku Suzuki - World Cup  Group C  Match - 43:01", Desc: "Flame steals the win by rolling up Suzuki", Rating: 4.5 },
-{ Header: "Harry Hale vs Ultimo Macho - World Cup  Group C Match 55:02", Desc: "Harry Hale gets an impressive pinfall victory in the first round of the World Cup.", Rating: 3 },
-{ Header: "Luke Mercer vs Nyatikali - World Cup  Group D Match - 1:01:52", Desc: "Nyatikali wins via TKO in a very impressive match. ", Rating: 5 },
-{ Header: "PAZ vs Aussie Avatar - World Cup  Group D Match - 1:09:45", Desc: "PAZ squashes Aussie Avatar who ironically represented New Zealand.", Rating: 3 },
-{ Header: "Robert Ballantyne (c) vs Savage Oppress - BWI Blockbuster World Championship - 1:13:37", Desc: "Robert Ballantyne successfully defends the BWI Blockbuster World Championship against the winner of the May The 4th rumble Savage Oppress", Rating: 3.5 },
-{ Header: "TJ Baker (c) vs Paploo - Global Championship - 1:22:31", Desc: "TJ Baker retains the ShockWave Global Championship against Paploo in what was a fantastic first main event to Wednesday Night Wild.", Rating: 5 },
+ { Header: "The Power Chords vs Fight and Flight", Desc: "The Power Chords take their first win in a chaotic opening match where Rikki keeps Spencer outside the ring as Aiden pins Flyboy.", Rating: 4 },
+{ Header: "Zacko vs Robert Ballentyne (c) - BWI World Championship Match", Desc: "Zacko puts up a hell of a fight but is unable to put away Rob as he finishes the job with the Ultimate Ginger End", Rating: 4.5 },
+{ Header: "Russell Tanaka vs Caleb Blaze", Desc: "Russell makes easy work of Caleb Blaze and claims his spot at the top of Group B with four points.", Rating: 3 },
+{ Header: "Aussie Avatar vs Luke Mercer", Desc: "Luke Mercer takes out The “Aussie” Avatar in one move, scoring an easy three points and a redemption after his knockout last week.", Rating: 2 },
+{ Header: "Jindrak vs Chopper", Desc: "Chopper hits the ref early on to sneak in a chair and assault Jindrak, however the handle doesn’t pay off as Jindrak still comes out on top.", Rating: 4 },
+{ Header: "Flint McDagger vs Gabriel Cade", Desc: "Flint tries to secure a count-out draw but Gabriel doesn’t allow it. Gabriel sends him back in and after a short back and forth locks him into the accolade and Flint taps.", Rating: 3 },
+{ Header: "Harry Hale vs Lizard Boy", Desc: "Harry Hale defeats fan favorite Lizard Boy.", Rating: 3 },
+{ Header: "Great Luc vs Ahmed", Desc: "In Ahmed’s debut he takes on The Great Luc, bringing a chair into the ring. As the ref tosses it out he uses the moment to low blow Luc and take the win.", Rating: 4 },
+{ Header: "Aku Suzuki vs Ultimo Macho", Desc: "In a high pace match Aku gets the win over Ultimo Macho by making him tap in an octopus stretch.", Rating: 4 },
+{ Header: "Paz vs Nyatikali", Desc: "Nyatikali puts on a dominant performance against Paz, showing the legend what he’s made of as he wins via TKO.", Rating: 4.5 },
+{ Header: "Flame Shadow vs Big Papi L", Desc: "After a hard fought match Flame takes the win against Big Papi L.", Rating: 4.5 },
+{ Header: "Eoin vs Vittorio Grau", Desc: "In a true back and forth Eoin shows why he’s the Overrated Indie Darling of Shock Wrestling. Earning a hard fought victory against Grau and putting points on the board.", Rating: 5 },
 ];
