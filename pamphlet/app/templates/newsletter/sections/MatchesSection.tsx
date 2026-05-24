@@ -22,7 +22,27 @@ export default function MatchesSection({ matches }: Props) {
   if (!matches || matches.length === 0) return null;
 
   const highest = Math.max(...matches.map((m) => m.Rating || 0));
+  const getLayout = (count: number) => {
+    // Maximum of 4 rows
+    const rows = Math.min(4, count);
 
+    // Items per row needed to fit within 4 rows
+    const itemsPerRow = Math.max(Math.ceil(count / rows), 3);
+    // Material UI grid uses 12 columns
+    const gridSize = Math.max(12 / itemsPerRow, 1);
+
+    // Optional width scaling
+    let maxWidth = 300;
+
+    if (itemsPerRow >= 5) maxWidth = 175;
+    else if (itemsPerRow === 4) maxWidth = 225;
+    else if (itemsPerRow === 3) maxWidth = 300;
+    else if (itemsPerRow === 2) maxWidth = 400;
+    else if (itemsPerRow === 1) maxWidth = 600;
+
+    return { gridSize, maxWidth };
+  };
+  const { gridSize, maxWidth } = getLayout(matches.length);
   return (
     <View style={styles.sideStack}>
       {/* Section Header */}
@@ -42,15 +62,14 @@ export default function MatchesSection({ matches }: Props) {
         {matches.map((item, index) => (
           <Grid
             item
-            size={4}
+            size={gridSize}
             key={index}
             sx={{ display: "flex", justifyContent: "center" }}
           >
             <HoverableCard
               style={{
-                padding: 8,
                 borderRadius: 16,
-                maxWidth: 300,
+                maxWidth: maxWidth,
                 height: "100%",
                 display: "flex",
                 flexDirection: "column",
@@ -66,6 +85,12 @@ export default function MatchesSection({ matches }: Props) {
                   textAlign: "center",
                   marginBottom: 1,
                   color: colours.textPrimary,
+                  minHeight: 64,
+                  maxHeight: 64,
+                  fontSize: "clamp(0.5rem, 1.5vw, 1.2rem)",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
                 }}
               >
                 {item.Header}
@@ -79,7 +104,7 @@ export default function MatchesSection({ matches }: Props) {
                   textAlign: "center",
                   marginTop: 2,
                   color: colours.textSecondary,
-                  fontSize: 12,
+                  fontSize: "0.875rem",
                 }}
               >
                 {item.Desc}

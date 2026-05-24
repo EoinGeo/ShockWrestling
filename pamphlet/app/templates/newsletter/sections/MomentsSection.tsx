@@ -32,6 +32,8 @@ export default function MomentsSection({ logo, moments }: Props) {
         return { gridSize: 4, maxWidth: 300 };
       case 4:
         return { gridSize: 3, maxWidth: 200 };
+      case 5:
+        return { gridSize: 2.4, maxWidth: 175 };
       default:
         // Fallback for any other number of items
         return {
@@ -82,6 +84,8 @@ export default function MomentsSection({ logo, moments }: Props) {
                 sx={{
                   fontWeight: "bold",
                   marginBottom: 1,
+                  minHeight: 64,
+                  maxHeight: 64,
                   textAlign: "center",
                   color: colours.textPrimary,
                 }}
@@ -97,7 +101,7 @@ export default function MomentsSection({ logo, moments }: Props) {
                   textAlign: "center",
                   marginTop: 2,
                   color: colours.textSecondary,
-                  fontSize: 12,
+                  fontSize: "0.875rem",
                 }}
               >
                 {item.Desc}
