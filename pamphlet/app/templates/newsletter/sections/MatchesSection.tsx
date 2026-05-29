@@ -23,10 +23,10 @@ export default function MatchesSection({ matches }: Props) {
 
   const highest = Math.max(...matches.map((m) => m.Rating || 0));
   const getLayout = (count: number) => {
-    // Maximum of 4 rows
-    const rows = Math.min(4, count);
+    // Maximum of 5 rows
+    const rows = Math.min(5, count);
 
-    // Items per row needed to fit within 4 rows
+    // Items per row needed to fit within 5 rows
     const itemsPerRow = Math.max(Math.ceil(count / rows), 3);
     // Material UI grid uses 12 columns
     const gridSize = Math.max(12 / itemsPerRow, 1);
