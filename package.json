@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "expo-router": "^6.0.21",
+    "flag-icons": "^7.5.0",
+    "react-native-country-flag": "^2.0.2",
     "styled-components": "^6.1.19"
   }
 }

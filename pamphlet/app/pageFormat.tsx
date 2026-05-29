@@ -79,7 +79,20 @@ export default function PageFormat() {
         >
           SNCE Newsletter
         </Link>*/}
-
+        <Link
+          href="/newsletters/worldcup"
+          style={{
+            padding: "12px 24px",
+            fontSize: 16,
+            cursor: "pointer",
+            backgroundColor: "#eee",
+            borderRadius: 6,
+            textDecoration: "none",
+            color: "#000",
+          }}
+        >
+          World Cup Newsletter
+        </Link>
         <Link
           href="/newsletters/cawNewsletter"
           style={{

@@ -58,9 +58,7 @@ const styles = StyleSheet.create({
     position: "relative",
     cursor: Platform.OS === "web" ? "pointer" : undefined, // only web
   },
-  buttonText: {
-    marginLeft: 5,
-  },
+  buttonText: {},
   activeIndicator: {
     position: "absolute",
     top: 5,
