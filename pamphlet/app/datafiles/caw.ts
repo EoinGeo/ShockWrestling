@@ -1,0 +1,18 @@
+// CAW-related exports (not applicable for this Strike event)
+export const topCawMoments = [
+ { Header: "So The Crowd Pleaser Was A Part Timer?", Desc: "Andre opens the show by announcing Nicholas will fight Ziggy in the main event as Andre declares “No more Part Time!”", Rating: 5 },
+{ Header: "The Payneful Poison Chronicles?", Desc: "Steven is approached by Pat Cross and the two bicker about who should have the right to take on Sean Payne. Steven makes the offer of Pat Cross putting his #1 Contenders on the line and Pat accepts.", Rating: 4.5 },
+{ Header: "European Divide", Desc: "Vittorio Grau meets Jonathan Barker in the ring after his win and the two stare down. Tensions rising after the finish of the ladder match where Barker stole Grau’s opportunity to win the European Championship.", Rating: 5 },
+{ Header: "A Payneful Chapter", Desc: "After their match Steven and Pat shake hands but Sean Payne attacks Steven on his way up the ramp! Pat Cross see’s the assault and gives chase out of the arena!", Rating: 5 },
+{ Header: "WARGAMES!", Desc: "Ace attacks Ziggy Danger post match! Eoin quickly steps in to save him but is grabbed by Rob! Rob is attacked by Animus who is attacked by Emerson who is attacked by TJ! Chaos unfolds in the main event of CAW before Andre declares The Constant vs The Rebellion at Galactic Conquest in…WARGAMES!", Rating: 5 },];
+export const cawBigMoment = "../images/CAW180526.jpg";
+// All Matches Data
+export const cawData = [
+  { Header: "Pretty Talent Assembly vs Flamina Shadow & Jayla Barker - 1:22", Desc: "After weeks of speculation from the locker room Miss Jayla Barker makes her official Shock debut! Unfortunately her and Flamina are unable to take down the Pretty Talent Assembly.", Rating: 3.5 },
+{ Header: "The Animal Jason vs Clark Thunder - 11:18", Desc: "Clark Thunder puts on an impressive performance to earn his way into the Galactic Conquest match card!", Rating: 5 },
+{ Header: "Gronel The Goblin vs Blue Hero - 22:37", Desc: "Blue Hero puts all his might into a smashing punch to the face and takes Gronel down with no effort. However in an act of Guerilla Groovienes, Groovy Gary and Tubular Tony attack Blue Hero after his match, beating him down with chairs!", Rating: 1 },
+{ Header: "Jonny Inferno vs Johnathan Barker - 26:19", Desc: "Jonathan Barker makes his first defense of his European Championship against Inferno Johnny. Johnny gives it his all but falls short of dethroning the champ.", Rating: 4 },
+{ Header: "Ashlee vs Darth Talon - Blockbuster Match - 34:19", Desc: "Ashlee steam rolls over Darth Talon in this Women’s Blockbuster Match. Ending this brutal beat down with a knee to the face!", Rating: 3.5 },
+{ Header: "Helix vs The Camerons (c) - World Tag Team Championships - 43:06", Desc: "Helix introduces their new member Cairn Cunningham as they go into their title match against The Camerons. The gamble pays off as Cairn singlehandedly carries Helix to a Tag Title Win!", Rating: 4.5 },
+{ Header: "Pat Cross vs Steven Chronicles - 50:59", Desc: "The two men put each other through hell to get their hands on Sean Payne. Both kicking out from attacks they shouldn’t have. However it’s Pat Cross with his Fairy Tale Ending that secures the win.", Rating: 5 },
+{ Header: "Ziggy Danger vs Nicholas (c) - ShockWrestling World Championship - 1:10:18", Desc: "When Ziggy starts getting momentum Nicholas wastes no time hitting him in the Danger Zone and is disqualified. ", Rating: 1 },];
