@@ -49,7 +49,7 @@ export default function PageFormat() {
           Export Newsletter
         </button>
 
-        {/* Navigation Buttons */}
+        {/* Navigation Buttons 
         <Link
           href="/newsletters/pgNewsletter"
           style={{
@@ -63,6 +63,36 @@ export default function PageFormat() {
           }}
         >
           PG Newsletter
+        </Link>
+
+        <Link
+          href="/newsletters/snceNewsletter"
+          style={{
+            padding: "12px 24px",
+            fontSize: 16,
+            cursor: "pointer",
+            backgroundColor: "#eee",
+            borderRadius: 6,
+            textDecoration: "none",
+            color: "#000",
+          }}
+        >
+          SNCE Newsletter
+        </Link>*/}
+
+        <Link
+          href="/newsletters/cawNewsletter"
+          style={{
+            padding: "12px 24px",
+            fontSize: 16,
+            cursor: "pointer",
+            backgroundColor: "#eee",
+            borderRadius: 6,
+            textDecoration: "none",
+            color: "#000",
+          }}
+        >
+          CAW Newsletter
         </Link>
         <Link
           href="/newsletters/wildNewsletter"
@@ -79,20 +109,6 @@ export default function PageFormat() {
           Wild Newsletter
         </Link>
         <Link
-          href="/newsletters/snceNewsletter"
-          style={{
-            padding: "12px 24px",
-            fontSize: 16,
-            cursor: "pointer",
-            backgroundColor: "#eee",
-            borderRadius: 6,
-            textDecoration: "none",
-            color: "#000",
-          }}
-        >
-          SNCE Newsletter
-        </Link>
-        <Link
           href="/newsletters/strikeNewsletter"
           style={{
             padding: "12px 24px",
@@ -105,21 +121,6 @@ export default function PageFormat() {
           }}
         >
           Strike Newsletter
-        </Link>
-
-        <Link
-          href="/newsletters/cawNewsletter"
-          style={{
-            padding: "12px 24px",
-            fontSize: 16,
-            cursor: "pointer",
-            backgroundColor: "#eee",
-            borderRadius: 6,
-            textDecoration: "none",
-            color: "#000",
-          }}
-        >
-          CAW Newsletter
         </Link>
       </div>
 

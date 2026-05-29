@@ -23,11 +23,9 @@ export default function WildNewsletter() {
       <Newsletter>
         <BigMomentSection image={wildBigMoment} />
 
-        <MatchOfTheNightSection matches={wildData} />
-
-        <MomentsSection
+        <MatchOfTheNightSection
+          matches={wildData}
           logo={require("../../assets/WILD.png")}
-          moments={topWildMoments}
         />
 
         <MatchesSection matches={wildData} />

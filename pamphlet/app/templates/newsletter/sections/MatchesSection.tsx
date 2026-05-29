@@ -87,7 +87,6 @@ export default function MatchesSection({ matches }: Props) {
                   color: colours.textPrimary,
                   minHeight: 64,
                   maxHeight: 64,
-                  fontSize: "clamp(0.5rem, 1.5vw, 1.2rem)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
@@ -97,18 +96,6 @@ export default function MatchesSection({ matches }: Props) {
               </Typography>
 
               <StarRating rating={item.Rating || 0} />
-
-              <Typography
-                variant="body2"
-                sx={{
-                  textAlign: "center",
-                  marginTop: 2,
-                  color: colours.textSecondary,
-                  fontSize: "0.875rem",
-                }}
-              >
-                {item.Desc}
-              </Typography>
             </HoverableCard>
           </Grid>
         ))}

@@ -23,11 +23,9 @@ export default function StrikeNewsletter() {
       <Newsletter>
         <BigMomentSection image={strikeBigMoment} />
 
-        <MatchOfTheNightSection matches={strikeData} />
-
-        <MomentsSection
+        <MatchOfTheNightSection
+          matches={strikeData}
           logo={require("../../assets/STRIKE.png")}
-          moments={topStrikeMoments}
         />
 
         <MatchesSection matches={strikeData} />

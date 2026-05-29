@@ -23,11 +23,9 @@ export default function CawNewsletter() {
       <Newsletter>
         <BigMomentSection image={cawBigMoment} />
 
-        <MatchOfTheNightSection matches={cawData} />
-
-        <MomentsSection
+        <MatchOfTheNightSection
+          matches={cawData}
           logo={require("../../assets/CAW.png")}
-          moments={topCawMoments}
         />
 
         <MatchesSection matches={cawData} />

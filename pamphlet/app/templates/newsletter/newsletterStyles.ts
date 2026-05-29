@@ -32,6 +32,7 @@ export const newsletterStyles = StyleSheet.create({
 
   /* ───── MASTHEAD ───── */
   masthead: {
+    width: "80%",
     paddingBottom: 8,
     marginBottom: 16,
     borderBottomWidth: 1,
