@@ -1,4 +1,4 @@
-export const hgBigMoment = "../images/CAW180526.jpg";
+export const hgBigMoment = "../images/HG2026.jpg";
 // All Matches Data
 export const hgData = [
   { Header: "Pretty Talent Assembly vs Flamina Shadow & Jayla Barker - 1:22", Desc: "After weeks of speculation from the locker room Miss Jayla Barker makes her official Shock debut! Unfortunately her and Flamina are unable to take down the Pretty Talent Assembly.", Rating: 3.5 },

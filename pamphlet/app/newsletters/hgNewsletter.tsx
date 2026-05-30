@@ -13,7 +13,7 @@ export default function HGNewsletter() {
   const { setScheme } = useTheme();
 
   useEffect(() => {
-    setScheme("light");
+    setScheme("dark");
   }, []);
   return (
     <ImageBackground
