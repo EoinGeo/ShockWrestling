@@ -12,6 +12,13 @@ import Ionicons from "@expo/vector-icons/Ionicons";
 
 export default function worldcup() {
   const { colours, setScheme } = useTheme();
+
+  const withOpacity = (hex: string, opacity: number) => {
+    const r = parseInt(hex.slice(1, 3), 16);
+    const g = parseInt(hex.slice(3, 5), 16);
+    const b = parseInt(hex.slice(5, 7), 16);
+    return `rgba(${r}, ${g}, ${b}, ${opacity})`;
+  };
   const [activeGroup, setActiveGroup] = useState<"A" | "B" | "C" | "D">("A");
   const globeIcon = (
     <Ionicons name="globe-outline" size={24} color={colours.textPrimary} />
@@ -19,7 +26,7 @@ export default function worldcup() {
 
   const groupA = [
     { name: "Rodkip", nat: "Mexico", w: 3, d: 0, l: 0, pts: 9 },
-    { name: "Jindrak", nat: "Finland", w: 2, d: 0, l: 1, pts: 9 },
+    { name: "Jindrak", nat: "Finland", w: 2, d: 0, l: 1, pts: 6 },
     { name: "Gabriel Kade", nat: "Canada", w: 1, d: 1, l: 1, pts: 4 },
     { name: "Ryan Rizal", nat: "Philippines", w: 1, d: 1, l: 1, pts: 4 },
     { name: "Chopper", nat: "Wales", w: 1, d: 0, l: 2, pts: 3 },
@@ -64,6 +71,7 @@ export default function worldcup() {
     A: {
       title: "JVH's Hatewatch Group",
       wrestlers: groupA,
+      source: require("../../assets/WorldCupA.png"),
       review:
         "Group A has provided that classic tournament feel, where the early-round form has started to seperate the true contenders from those barely scraping through. Despite an early loss to Rodkip, Jindrak has returned to form and is now level on points." +
         "\n" +
@@ -76,6 +84,7 @@ export default function worldcup() {
     B: {
       title: "Standings in the Group of Death",
       wrestlers: groupB,
+      source: require("../../assets/WorldCupB.png"),
       review:
         "Group B has been defined by balance, consistency, and the kind of in-ring storytelling that makes me a fan of round robin formats. Russell and Tyler have been the centerpiece acts, and their match was the match of the tournament so far, with the timing, pacing, and tension giving it the kind of big-match feel that fit the fourth week. Their draw was a fitting end to a match that could have gone either way, and has left the group wide open with 2 weeks to go." +
         "\n" +
@@ -85,6 +94,7 @@ export default function worldcup() {
     C: {
       title: "A Polarising Group",
       wrestlers: groupC,
+      source: require("../../assets/WorldCupC.png"),
       review:
         "Group C has become the tournament’s great pendulum, constantly swinging from one direction to the next, with the top of the block changing hands so often that stability has become a luxury nobody seems able to afford." +
         "\n" +
@@ -100,6 +110,7 @@ export default function worldcup() {
     D: {
       title: "Knockout Blows & Traitorous Backstabs",
       wrestlers: groupD,
+      source: require("../../assets/WorldCupD.png"),
       review:
         "Group D has had a different kind of heat, one driven by outrage, momentum, and a clear top-end force in Nyatikali." +
         "\n" +
@@ -154,18 +165,17 @@ export default function worldcup() {
 
         <TableSection wrestlers={current.wrestlers} title={current.title} />
 
-        <View style={{ width: "50%", left: "25%" }}>
+        <View style={{ width: "80%", left: "10%" }}>
           <HoverableCard
             style={{
-              backgroundColor: colours.line,
+              backgroundColor: withOpacity(colours.line, 0.5),
+              borderWidth: 0,
             }}
           >
             <Image
-              source={require("../../assets/WorldCup.png")}
+              source={current.source}
               style={{
-                width: "75%",
-                height: 450,
-                left: "10%",
+                width: "100%",
               }}
             />
           </HoverableCard>

@@ -94,6 +94,34 @@ export default function PageFormat() {
           World Cup Newsletter
         </Link>
         <Link
+          href="/newsletters/gcNewsletter"
+          style={{
+            padding: "12px 24px",
+            fontSize: 16,
+            cursor: "pointer",
+            backgroundColor: "#eee",
+            borderRadius: 6,
+            textDecoration: "none",
+            color: "#000",
+          }}
+        >
+          GC Newsletter
+        </Link>
+        <Link
+          href="/newsletters/hgNewsletter"
+          style={{
+            padding: "12px 24px",
+            fontSize: 16,
+            cursor: "pointer",
+            backgroundColor: "#eee",
+            borderRadius: 6,
+            textDecoration: "none",
+            color: "#000",
+          }}
+        >
+          HG Newsletter
+        </Link>
+        <Link
           href="/newsletters/cawNewsletter"
           style={{
             padding: "12px 24px",
