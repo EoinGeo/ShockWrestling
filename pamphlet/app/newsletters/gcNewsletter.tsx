@@ -35,7 +35,7 @@ export default function GCNewsletter() {
         />
         <View
           style={{
-            backgroundColor: withOpacity(colours.surface, 0.25),
+            backgroundColor: withOpacity(colours.surface, 0.4),
             padding: 20,
             borderRadius: 36,
           }}

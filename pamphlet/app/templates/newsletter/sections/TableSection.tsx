@@ -26,7 +26,7 @@ const FLAGS: Record<string, string> = {
   Ireland: "ie",
   Germany: "de",
   Australia: "au",
-  "New Zealand": "nzl",
+  "New Zealand": "nz",
   Switzerland: "ch",
   Greece: "gr",
   Egypt: "eg",
@@ -48,12 +48,13 @@ function getFlagUrl(nation: string) {
 }
 
 function FlagImage({ src }: { src: string }) {
+  const { colours, isVertical } = useTheme();
   return (
     <Image
       source={{ uri: src }}
       style={{
-        width: 18,
-        height: 12,
+        width: isVertical ? 18 : 72,
+        height: isVertical ? 12 : 48,
         resizeMode: "cover",
       }}
     />
@@ -61,7 +62,7 @@ function FlagImage({ src }: { src: string }) {
 }
 
 function DashLine() {
-  const { colours } = useTheme();
+  const { colours, isVertical } = useTheme();
 
   return (
     <View
@@ -73,7 +74,12 @@ function DashLine() {
         },
       ]}
     >
-      <Text style={[styles.headline, { color: "#ff6b7a" }]}>
+      <Text
+        style={[
+          styles.headline,
+          { fontSize: isVertical ? 24 : 32, color: "#ff6b7a" },
+        ]}
+      >
         Elimination Zone
       </Text>
     </View>
@@ -97,7 +103,7 @@ function WrestlerRow({
   index: number;
   flagCache: Record<string, string>;
 }) {
-  const { colours } = useTheme();
+  const { colours, isVertical } = useTheme();
   const isAtRisk = index >= 4;
 
   const nameBg = isAtRisk ? "#4a1a20" : colours.surface;
@@ -126,9 +132,16 @@ function WrestlerRow({
           }}
         >
           <FlagImage src={flagUrl} />
-          <Text style={{ color: colours.textPrimary, fontWeight: "600" }}>
-            {formatNationality(FLAGS[wrestler.nat])}
-          </Text>
+          <View style={{ minWidth: 48 }}>
+            <Typography
+              variant={isVertical ? "h6" : "h4"}
+              style={{
+                color: colours.textPrimary,
+              }}
+            >
+              {formatNationality(FLAGS[wrestler.nat])}
+            </Typography>
+          </View>
         </View>
       ),
       bg: nameBg,
@@ -146,7 +159,7 @@ function WrestlerRow({
           <HoverableCard
             style={{
               backgroundColor: col.bg,
-              minHeight: 56,
+              minHeight: isVertical ? 48 : 72,
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
@@ -154,7 +167,7 @@ function WrestlerRow({
           >
             {typeof col.content === "string" ? (
               <Typography
-                variant="h6"
+                variant={isVertical ? "h6" : "h4"}
                 sx={{
                   fontWeight: "bold",
                   textAlign: "center",
@@ -174,7 +187,7 @@ function WrestlerRow({
 }
 
 export default function TableSection({ wrestlers, title }) {
-  const { colours } = useTheme();
+  const { colours, isVertical } = useTheme();
   const flagCache = useMemo(() => {
     const cache: Record<string, string> = {};
 
@@ -187,7 +200,7 @@ export default function TableSection({ wrestlers, title }) {
   }, [wrestlers]);
 
   return (
-    <View style={{ width: "80%", left: "10%", paddingHorizontal: 16 }}>
+    <View style={{ width: "80%", paddingHorizontal: 16 }}>
       {/* Title */}
       <View
         style={[
@@ -214,7 +227,7 @@ export default function TableSection({ wrestlers, title }) {
                     fontWeight: "bold",
                     textAlign: "center",
                     color: colours.textPrimary,
-                    minHeight: 32,
+                    minHeight: isVertical ? 32 : 48,
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",

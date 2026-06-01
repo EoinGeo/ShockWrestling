@@ -5,6 +5,7 @@ import { lightColours, darkColours } from "../themes/colours";
 type ThemeContextType = {
   scheme: "light" | "dark";
   colours: typeof lightColours;
+  isVertical: boolean;
   toggleTheme: () => void;
 };
 
@@ -14,11 +15,14 @@ export type ColorScheme = "light" | "dark";
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const systemScheme = useColorScheme();
   const [scheme, setScheme] = useState<ColorScheme>("dark");
+  const [isVertical, setVertical] = useState<boolean>(true);
 
   const colours = scheme === "light" ? lightColours : darkColours;
 
   return (
-    <ThemeContext.Provider value={{ colours, scheme, setScheme }}>
+    <ThemeContext.Provider
+      value={{ colours, scheme, setScheme, isVertical, setVertical }}
+    >
       {children}
     </ThemeContext.Provider>
   );

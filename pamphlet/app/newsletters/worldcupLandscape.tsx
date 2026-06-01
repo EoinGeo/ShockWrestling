@@ -2,12 +2,9 @@ import { ImageBackground, View } from "react-native";
 import { useState, useEffect } from "react";
 import TableSection from "../templates/newsletter/sections/TableSection";
 import { useTheme } from "../../contexts/ThemeContext";
-import { styles } from "./strikeNewsletter";
-import Newsletter from "../templates/newsletter/Newsletter";
 import { Image } from "react-native-web";
 import HoverableCard from "../../components/cards/hoverableCard";
 import HoverableButton from "../../components/visual/hoverableButton";
-import Typography from "@mui/material/Typography";
 import Ionicons from "@expo/vector-icons/Ionicons";
 
 export default function worldcup() {
@@ -25,20 +22,20 @@ export default function worldcup() {
   );
 
   const groupA = [
-    { name: "Rodkip", nat: "Mexico", w: 3, d: 0, l: 0, pts: 9 },
-    { name: "Jindrak", nat: "Finland", w: 2, d: 0, l: 1, pts: 6 },
-    { name: "Gabriel Kade", nat: "Canada", w: 1, d: 1, l: 1, pts: 4 },
-    { name: "Ryan Rizal", nat: "Philippines", w: 1, d: 1, l: 1, pts: 4 },
-    { name: "Chopper", nat: "Wales", w: 1, d: 0, l: 2, pts: 3 },
-    { name: "Flint McDagger", nat: "Scotland", w: 0, d: 0, l: 3, pts: 0 },
+    { name: "Rodkip", nat: "Mexico", w: 4, d: 0, l: 0, pts: 12 },
+    { name: "Jindrak", nat: "Finland", w: 3, d: 0, l: 1, pts: 9 },
+    { name: "Chopper", nat: "Wales", w: 2, d: 0, l: 2, pts: 6 },
+    { name: "Gabriel Kade", nat: "Canada", w: 1, d: 1, l: 2, pts: 4 },
+    { name: "Ryan Rizal", nat: "Philippines", w: 1, d: 1, l: 2, pts: 4 },
+    { name: "Flint McDagger", nat: "Scotland", w: 0, d: 0, l: 4, pts: 0 },
   ];
 
   const groupB = [
+    { name: "Emerson Rivers", nat: "", w: 3, d: 1, l: 0, pts: 10 },
     { name: "Russell", nat: "United States", w: 2, d: 2, l: 0, pts: 8 },
-    { name: "Emerson Rivers", nat: "", w: 2, d: 1, l: 0, pts: 7 },
-    { name: "Tyler Frost", nat: "Libya", w: 1, d: 2, l: 0, pts: 5 },
-    { name: "Caleb Blaze", nat: "Greece", w: 1, d: 0, l: 2, pts: 3 },
-    { name: "Ahmed", nat: "Egypt", w: 1, d: 0, l: 2, pts: 3 },
+    { name: "Tyler Frost", nat: "Libya", w: 2, d: 2, l: 0, pts: 8 },
+    { name: "Caleb Blaze", nat: "Greece", w: 1, d: 0, l: 3, pts: 3 },
+    { name: "Ahmed", nat: "Egypt", w: 1, d: 0, l: 3, pts: 3 },
     { name: "Luc", nat: "Vietnam", w: 0, d: 1, l: 3, pts: 1 },
   ];
 
@@ -48,28 +45,28 @@ export default function worldcup() {
       nat: "South Korea",
       w: 3,
       d: 0,
-      l: 0,
+      l: 1,
       pts: 9,
     },
     { name: "Aku Suzuki", nat: "Japan", w: 3, d: 0, l: 1, pts: 9 },
     { name: "Harry Hale", nat: "England", w: 3, d: 0, l: 1, pts: 9 },
-    { name: "Ultimo Macho", nat: "Puerto Rico", w: 1, d: 0, l: 2, pts: 3 },
-    { name: "Big Papi L", nat: "Dominican Rep.", w: 0, d: 0, l: 3, pts: 0 },
-    { name: "Lizard Boy", nat: "Madagascar", w: 0, d: 0, l: 3, pts: 0 },
+    { name: "Big Papi L", nat: "Dominican Rep.", w: 1, d: 0, l: 3, pts: 3 },
+    { name: "Ultimo Macho", nat: "Puerto Rico", w: 1, d: 0, l: 3, pts: 3 },
+    { name: "Lizard Boy", nat: "Madagascar", w: 1, d: 0, l: 3, pts: 3 },
   ];
 
   const groupD = [
-    { name: "Nyatikali", nat: "Kenya", w: 3, d: 0, l: 0, pts: 9 },
-    { name: "Eoin", nat: "Ireland", w: 2, d: 0, l: 1, pts: 6 },
-    { name: "Vittorio Grau", nat: "Switzerland", w: 2, d: 0, l: 1, pts: 6 },
-    { name: "Paz", nat: "Australia", w: 1, d: 0, l: 2, pts: 3 },
-    { name: "Luke Mercer", nat: "Germany", w: 1, d: 0, l: 2, pts: 3 },
-    { name: "Aussie Avatar", nat: "New Zealand", w: 0, d: 0, l: 3, pts: 0 },
+    { name: "Nyatikali", nat: "Kenya", w: 4, d: 0, l: 0, pts: 12 },
+    { name: "Eoin", nat: "Ireland", w: 3, d: 0, l: 1, pts: 9 },
+    { name: "Luke Mercer", nat: "Germany", w: 2, d: 0, l: 2, pts: 6 },
+    { name: "Vittorio Grau", nat: "Switzerland", w: 2, d: 0, l: 2, pts: 6 },
+    { name: "Paz", nat: "Australia", w: 1, d: 0, l: 3, pts: 3 },
+    { name: "Aussie Avatar", nat: "New Zealand", w: 0, d: 0, l: 4, pts: 0 },
   ];
 
   const groups = {
     A: {
-      title: "JVH's Hatewatch Group",
+      title: "Group A",
       wrestlers: groupA,
       source: require("../../assets/WorldCupA.png"),
       review:
@@ -82,7 +79,7 @@ export default function worldcup() {
         "Rodkip is all but qualified and is looking like the Freezler favourite to win the whole tournament.",
     },
     B: {
-      title: "Standings in the Group of Death",
+      title: "Group B",
       wrestlers: groupB,
       source: require("../../assets/WorldCupB.png"),
       review:
@@ -92,7 +89,7 @@ export default function worldcup() {
         "Emerson has been the most consistent performer in the group, and is in a strong position to qualify, but with a tough matchup against Russell coming up in the final week, nothing is guaranteed. Caleb and Ahmed have both had their moments, but are going to require some wins to qualify each other, and Luc is going to have to win out and hope for both to make mistakes to have a chance at qualifying.",
     },
     C: {
-      title: "A Polarising Group",
+      title: "Group C",
       wrestlers: groupC,
       source: require("../../assets/WorldCupC.png"),
       review:
@@ -108,7 +105,7 @@ export default function worldcup() {
         "I, personally am rooting for Lizard Boy.",
     },
     D: {
-      title: "Knockout Blows & Traitorous Backstabs",
+      title: "Group D",
       wrestlers: groupD,
       source: require("../../assets/WorldCupD.png"),
       review:
@@ -129,107 +126,46 @@ export default function worldcup() {
   const current = groups[activeGroup];
 
   return (
-    <ImageBackground
-      source={require("../../assets/WILDBG.png")}
-      style={styles.background}
+    <View
+      style={{
+        height: "100%",
+        width: "100%",
+        backgroundColor: "#280A35",
+        alignItems: "center",
+      }}
     >
-      <Newsletter>
-        <View
-          style={{
-            flexDirection: "row",
-            justifyContent: "space-between",
-            width: "80%",
-            left: "10%",
-            marginBottom: 16,
-          }}
-        >
-          {(["A", "B", "C", "D"] as const).map((group) => (
-            <HoverableCard
-              style={[
-                activeGroup === group && { backgroundColor: colours.surface },
-                {
-                  borderColor: colours.textPrimary,
-                  borderWidth: 2,
-                },
-              ]}
-            >
-              <HoverableButton
-                key={group}
-                onPress={() => setActiveGroup(group)}
-                label={`Group ${group}`}
-                icon={globeIcon}
-              ></HoverableButton>
-            </HoverableCard>
-          ))}
-        </View>
-        <View style={{ left: "10%", marginBottom: 16 }}>
-          <TableSection wrestlers={current.wrestlers} title={current.title} />
-        </View>
-        <View style={{ width: "80%", left: "10%" }}>
+      <View
+        style={{
+          flexDirection: "row",
+          justifyContent: "space-between",
+          width: "40%",
+          height: "10%",
+          paddingTop: 16,
+        }}
+      >
+        {(["A", "B", "C", "D"] as const).map((group) => (
           <HoverableCard
-            style={{
-              backgroundColor: withOpacity(colours.line, 0.5),
-              borderWidth: 0,
-            }}
+            style={[
+              activeGroup === group && { backgroundColor: colours.surface },
+              {
+                borderColor: colours.textPrimary,
+                borderWidth: 2,
+              },
+            ]}
           >
-            <Image
-              source={current.source}
-              style={{
-                width: "100%",
-              }}
-            />
+            <HoverableButton
+              key={group}
+              onPress={() => setActiveGroup(group)}
+              label={`Group ${group}`}
+              icon={globeIcon}
+            ></HoverableButton>
           </HoverableCard>
-        </View>
+        ))}
+      </View>
 
-        <View
-          style={{
-            borderBottomColor: colours.textPrimary,
-            marginBottom: 16,
-            borderBottomWidth: 1,
-            width: "80%",
-            left: "10%",
-          }}
-        >
-          <Typography
-            variant="h4"
-            sx={{
-              fontWeight: "bold",
-              textAlign: "center",
-              margin: 2,
-              color: colours.textPrimary,
-            }}
-          >
-            Dan Freezler&apos;s Group {activeGroup} Review
-          </Typography>
-        </View>
-
-        <View style={{ marginBottom: 16 }}>
-          <HoverableCard
-            style={{
-              borderRadius: 16,
-              minHeight: 500,
-              width: "80%",
-              left: "10%",
-              height: "100%",
-              borderColor: colours.textPrimary,
-              borderWidth: 2,
-            }}
-          >
-            <Typography
-              variant="h4"
-              sx={{
-                fontWeight: "bold",
-                textAlign: "center",
-                marginBottom: 1,
-                color: colours.textPrimary,
-                whiteSpace: "pre-line",
-              }}
-            >
-              {current.review}
-            </Typography>
-          </HoverableCard>
-        </View>
-      </Newsletter>
-    </ImageBackground>
+      <View style={{ width: "100%", left: "10%" }}>
+        <TableSection wrestlers={current.wrestlers} title={current.title} />
+      </View>
+    </View>
   );
 }

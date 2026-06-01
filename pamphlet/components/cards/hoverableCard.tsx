@@ -18,7 +18,18 @@ const HoverableCard: React.FC<HoverableCardProps> = ({
   const { colours, scheme } = useTheme();
   const [isPressed, setIsPressed] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
-
+  const { isVertical } = useTheme();
+  const styles = StyleSheet.create({
+    card: {
+      borderRadius: 20,
+      borderWidth: 2,
+      elevation: 10,
+    },
+    content: {
+      borderRadius: 18,
+      padding: isVertical ? 16 : 8,
+    },
+  });
   const scaleAnim = useState(new Animated.Value(1))[0];
 
   const animateScale = (toValue: number) => {
@@ -82,16 +93,5 @@ const HoverableCard: React.FC<HoverableCardProps> = ({
     </Pressable>
   );
 };
-const styles = StyleSheet.create({
-  card: {
-    borderRadius: 20,
-    borderWidth: 2,
-    elevation: 10,
-  },
-  content: {
-    borderRadius: 18,
-    padding: 16,
-  },
-});
 
 export default HoverableCard;

@@ -1,20 +1,23 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { View, StyleSheet } from "react-native-web";
 import { Slot, Link } from "expo-router";
 import { useTheme } from "../contexts/ThemeContext";
 import html2canvas from "html2canvas";
 
 export default function PageFormat() {
-  const { colours } = useTheme();
+  const { colours, isVertical, setVertical } = useTheme();
   const slotRef = useRef<HTMLDivElement>(null);
+
+  const exportWidth = isVertical ? 1080 : 1920;
+  const exportHeight = isVertical ? 1920 : 1080;
 
   const handleExport = async () => {
     if (!slotRef.current) return;
 
     try {
       const canvas = await html2canvas(slotRef.current, {
-        scale: 2, // higher resolution
-        useCORS: true, // if images are external
+        scale: 1,
+        useCORS: true,
       });
 
       const imgData = canvas.toDataURL("image/png");
@@ -32,12 +35,22 @@ export default function PageFormat() {
     <View
       style={[
         styles.container,
-        { backgroundColor: colours.background, alignItems: "center" },
+        {
+          backgroundColor: colours.background,
+          alignItems: "center",
+        },
       ]}
     >
-      {/* Buttons Row */}
-      <div style={{ display: "flex", gap: 12, marginBottom: 24 }}>
-        {/* Export Button */}
+      {/* Controls */}
+      <div
+        style={{
+          display: "flex",
+          gap: 12,
+          marginBottom: 24,
+          flexWrap: "wrap",
+          justifyContent: "center",
+        }}
+      >
         <button
           style={{
             padding: "12px 24px",
@@ -49,36 +62,36 @@ export default function PageFormat() {
           Export Newsletter
         </button>
 
-        {/* Navigation Buttons 
-        <Link
-          href="/newsletters/pgNewsletter"
+        <button
           style={{
             padding: "12px 24px",
             fontSize: 16,
             cursor: "pointer",
-            backgroundColor: "#eee",
+            backgroundColor: isVertical === "portrait" ? "#2563eb" : "#eee",
+            color: isVertical === "portrait" ? "#fff" : "#000",
+            border: "none",
             borderRadius: 6,
-            textDecoration: "none",
-            color: "#000",
           }}
+          onClick={() => setVertical(true)}
         >
-          PG Newsletter
-        </Link>
+          Portrait (1080×1920)
+        </button>
 
-        <Link
-          href="/newsletters/snceNewsletter"
+        <button
           style={{
             padding: "12px 24px",
             fontSize: 16,
             cursor: "pointer",
-            backgroundColor: "#eee",
+            backgroundColor: isVertical === "landscape" ? "#2563eb" : "#eee",
+            color: isVertical === "landscape" ? "#fff" : "#000",
+            border: "none",
             borderRadius: 6,
-            textDecoration: "none",
-            color: "#000",
           }}
+          onClick={() => setVertical(false)}
         >
-          SNCE Newsletter
-        </Link>*/}
+          Landscape (1920×1080)
+        </button>
+
         <Link
           href="/newsletters/worldcup"
           style={{
@@ -93,6 +106,7 @@ export default function PageFormat() {
         >
           World Cup Newsletter
         </Link>
+
         <Link
           href="/newsletters/gcNewsletter"
           style={{
@@ -107,6 +121,7 @@ export default function PageFormat() {
         >
           GC Newsletter
         </Link>
+
         <Link
           href="/newsletters/hgNewsletter"
           style={{
@@ -121,6 +136,7 @@ export default function PageFormat() {
         >
           HG Newsletter
         </Link>
+
         <Link
           href="/newsletters/cawNewsletter"
           style={{
@@ -135,6 +151,7 @@ export default function PageFormat() {
         >
           CAW Newsletter
         </Link>
+
         <Link
           href="/newsletters/wildNewsletter"
           style={{
@@ -149,6 +166,7 @@ export default function PageFormat() {
         >
           Wild Newsletter
         </Link>
+
         <Link
           href="/newsletters/strikeNewsletter"
           style={{
@@ -165,15 +183,28 @@ export default function PageFormat() {
         </Link>
       </div>
 
-      {/* Slot wrapped in real div */}
+      {/* Preview */}
+      <div
+        style={{
+          marginBottom: 12,
+          fontSize: 14,
+          fontWeight: 600,
+        }}
+      >
+        Current Format: {exportWidth} × {exportHeight}
+      </div>
+
+      {/* Export Area */}
       <div
         ref={slotRef}
         style={{
-          width: 1080,
-          height: 1920,
+          width: exportWidth,
+          height: exportHeight,
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
+          overflow: "hidden",
+          position: "relative",
         }}
       >
         <Slot />
