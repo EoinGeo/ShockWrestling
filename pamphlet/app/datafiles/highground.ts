@@ -1,11 +1,9 @@
-export const hgBigMoment = "../images/HG2026.jpg";
+export const hgBigMoment = "../images/HG_2026.jpg";
 // All Matches Data
 export const hgData = [
-  { Header: "Pretty Talent Assembly vs Flamina Shadow & Jayla Barker - 1:22", Desc: "After weeks of speculation from the locker room Miss Jayla Barker makes her official Shock debut! Unfortunately her and Flamina are unable to take down the Pretty Talent Assembly.", Rating: 3.5 },
-{ Header: "The Animal Jason vs Clark Thunder - 11:18", Desc: "Clark Thunder puts on an impressive performance to earn his way into the Galactic Conquest match card!", Rating: 5 },
-{ Header: "Gronel The Goblin vs Blue Hero - 22:37", Desc: "Blue Hero puts all his might into a smashing punch to the face and takes Gronel down with no effort. However in an act of Guerilla Groovienes, Groovy Gary and Tubular Tony attack Blue Hero after his match, beating him down with chairs!", Rating: 1 },
-{ Header: "Jonny Inferno vs Johnathan Barker - 26:19", Desc: "Jonathan Barker makes his first defense of his European Championship against Inferno Johnny. Johnny gives it his all but falls short of dethroning the champ.", Rating: 4 },
-{ Header: "Ashlee vs Darth Talon - Blockbuster Match - 34:19", Desc: "Ashlee steam rolls over Darth Talon in this Women’s Blockbuster Match. Ending this brutal beat down with a knee to the face!", Rating: 3.5 },
-{ Header: "Helix vs The Camerons (c) - World Tag Team Championships - 43:06", Desc: "Helix introduces their new member Cairn Cunningham as they go into their title match against The Camerons. The gamble pays off as Cairn singlehandedly carries Helix to a Tag Title Win!", Rating: 4.5 },
-{ Header: "Pat Cross vs Steven Chronicles - 50:59", Desc: "The two men put each other through hell to get their hands on Sean Payne. Both kicking out from attacks they shouldn’t have. However it’s Pat Cross with his Fairy Tale Ending that secures the win.", Rating: 5 },
-{ Header: "Ziggy Danger vs Nicholas (c) - ShockWrestling World Championship - 1:10:18", Desc: "When Ziggy starts getting momentum Nicholas wastes no time hitting him in the Danger Zone and is disqualified. ", Rating: 1 },];
+  { Header: "Radical Rachel vs Reina De Fuego (c) - Proving Grounds Championship - 1:35", Desc: "", Rating: 4 },
+{ Header: "Blue Hero vs Party People - Gauntlet Match - 16:49", Desc: "", Rating: 5 },
+{ Header: "Voss Tonor vs Draven Maximus - 29:04", Desc: "", Rating: 4.5 },
+{ Header: "Raymond Knox vs Dex Edwards vs Lunar Wolf - Proving Grounds #1 Contender - 38:08", Desc: "", Rating: 4 },
+{ Header: "El Fiesta vs Max Marshall vs Jonny Inferno vs Tyler Frost (c) - Zoom Championship - 51:27", Desc: "", Rating: 5 },
+{ Header: "The Animal Jason vs Clark Thunder vs Skywalker (c) - Proving Grounds Championship - 1:02:21", Desc: "", Rating: 5 },];
