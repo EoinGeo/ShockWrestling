@@ -81,7 +81,7 @@ const HoverableCard: React.FC<HoverableCardProps> = ({
             transform: [{ scale: scaleAnim }],
             borderColor: colours.accent,
             shadowColor: colours.accent,
-            shadowOpacity: glowActive ? 0.35 : 0.15,
+            shadowOpacity: glowActive ? 0.35 : 0,
             shadowRadius: glowActive ? 10 : 18,
             backgroundColor: "transparent",
           },
