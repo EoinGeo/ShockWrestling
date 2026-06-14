@@ -69,7 +69,7 @@ export default function MatchesSection({ matches }: Props) {
             <HoverableCard
               style={{
                 borderRadius: 16,
-                maxWidth: maxWidth,
+                width: maxWidth,
                 height: "100%",
                 display: "flex",
                 flexDirection: "column",
