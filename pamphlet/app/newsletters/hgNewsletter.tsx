@@ -5,7 +5,7 @@ import MatchesSection from "../templates/newsletter/sections/MatchesSection";
 import MatchOfTheNightSection from "../templates/newsletter/sections/MatchOfTheNightSection";
 import BigMomentSection from "../templates/newsletter/sections/BigMomentSection";
 
-import { hgBigMoment, hgData } from "../data";
+import { aftershockBigMoment, aftershockData } from "../data";
 import { useEffect } from "react";
 import { useTheme } from "../../contexts/ThemeContext";
 
@@ -13,22 +13,22 @@ export default function HGNewsletter() {
   const { setScheme } = useTheme();
 
   useEffect(() => {
-    setScheme("dark");
+    setScheme("light");
   }, []);
   return (
     <ImageBackground
-      source={require("../../assets/HGBG.png")}
+      source={require("../../assets/AftershockBG.png")}
       style={styles.background}
     >
       <Newsletter>
-        <BigMomentSection image={hgBigMoment} />
+        <BigMomentSection image={aftershockBigMoment} />
 
         <MatchOfTheNightSection
-          matches={hgData}
-          logo={require("../../assets/High_Ground_2026_Logo.png")}
+          matches={aftershockData}
+          logo={require("../../assets/Aftershock_2026_Logo.png")}
         />
 
-        <MatchesSection matches={hgData} />
+        <MatchesSection matches={aftershockData} />
       </Newsletter>
     </ImageBackground>
   );

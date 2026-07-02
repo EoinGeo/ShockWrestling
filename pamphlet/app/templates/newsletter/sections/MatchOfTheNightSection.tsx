@@ -45,7 +45,7 @@ export default function MatchOfTheNightSection({
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-
+            height: "100%",
             borderRadius: 36,
 
             backgroundColor: withOpacity(colours.textSecondary, 0.4),
@@ -57,7 +57,7 @@ export default function MatchOfTheNightSection({
         >
           <Image
             source={logo}
-            style={{ height: 200, width: "95%" }}
+            style={{ height: 250, width: "95%" }}
             resizeMode="contain"
           />
         </View>
