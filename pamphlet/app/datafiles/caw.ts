@@ -5,14 +5,11 @@ export const topCawMoments = [
 { Header: "European Divide", Desc: "Vittorio Grau meets Jonathan Barker in the ring after his win and the two stare down. Tensions rising after the finish of the ladder match where Barker stole Grau’s opportunity to win the European Championship.", Rating: 5 },
 { Header: "A Payneful Chapter", Desc: "After their match Steven and Pat shake hands but Sean Payne attacks Steven on his way up the ramp! Pat Cross see’s the assault and gives chase out of the arena!", Rating: 5 },
 { Header: "WARGAMES!", Desc: "Ace attacks Ziggy Danger post match! Eoin quickly steps in to save him but is grabbed by Rob! Rob is attacked by Animus who is attacked by Emerson who is attacked by TJ! Chaos unfolds in the main event of CAW before Andre declares The Constant vs The Rebellion at Galactic Conquest in…WARGAMES!", Rating: 5 },];
-export const cawBigMoment = "../images/CAW220626.jpg";
+export const cawBigMoment = "../images/CAW290626.jpg";
 // All Matches Data
 export const cawData = [
-{ Header: "Caleb Blaze vs Ryan Rizal - 2:07", Desc: "", Rating: 3 },
-{ Header: "Miranda Ortiz vs MadzTV (c) - Women's Television Championship - 7:27", Desc: "", Rating: 3 },
-{ Header: "Pat Cross vs Alex Dean - Steel Cage Match - 18:28", Desc: "", Rating: 4 },
-{ Header: "Steven Chronicles vs Zach Gold vs Nyatikali  - 28:10", Desc: "", Rating: 4 },
-{ Header: "American Inferno vs Tyler Frost - 39:45", Desc: "", Rating: 3 },
-{ Header: "Maverick Basher vs Alex Wilson - 54:48", Desc: "", Rating: 3.5 },
-{ Header: "Sunflower vs Killa Vaughn Hollywood (c) - Women's World Championship - 1:06:20", Desc: "", Rating: 4.5 },
-];
+{ Header: "Rodkip vs Nyatikali - 5:25", Desc: "", Rating: 4 },
+{ Header: "La llorona Figueroa vs Killa Vaughn Hollywood - 17:10", Desc: "", Rating: 3 },
+{ Header: "Party People vs The Final Act - 24:35", Desc: "", Rating: 2.5 },
+{ Header: "El Leon Valiente vs Alex Wilson vs Skywalker (c) - Proving Grounds Championship - 31:51", Desc: "", Rating: 4 },
+{ Header: "Four Way - Winner challenges at Fight Night for the intercontinental Championship - 44:26", Desc: "", Rating: 5 },];
