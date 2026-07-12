@@ -39,10 +39,10 @@ export default function MatchesSection({ matches }: Props) {
     else if (itemsPerRow === 3) maxWidth = 300;
     else if (itemsPerRow === 2) maxWidth = 400;
     else if (itemsPerRow === 1) maxWidth = 600;
-
-    return { gridSize, maxWidth };
+    const titleVariant = itemsPerRow > 3 ? "h7" : "h6";
+    return { gridSize, maxWidth, titleVariant };
   };
-  const { gridSize, maxWidth } = getLayout(matches.length);
+  const { gridSize, maxWidth, titleVariant } = getLayout(matches.length);
   return (
     <View style={styles.sideStack}>
       {/* Section Header */}
@@ -79,7 +79,7 @@ export default function MatchesSection({ matches }: Props) {
               }}
             >
               <Typography
-                variant="h6"
+                variant={titleVariant}
                 sx={{
                   fontWeight: "bold",
                   textAlign: "center",
