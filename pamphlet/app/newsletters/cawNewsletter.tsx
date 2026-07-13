@@ -11,7 +11,12 @@ import { useTheme } from "../../contexts/ThemeContext";
 
 export default function CawNewsletter() {
   const { setScheme } = useTheme();
-
+  let matchOverride = {
+    Header:
+      "Logan Luscious VS Germ Stars VS Raymond Knox - Maddie's Classic Tournament",
+    Desc: " ",
+    Rating: 4,
+  };
   useEffect(() => {
     setScheme("light");
   }, []);
@@ -25,7 +30,8 @@ export default function CawNewsletter() {
 
         <MatchOfTheNightSection
           matches={cawData}
-          logo={require("../../assets/CAW.png")}
+          matchOverride={matchOverride}
+          logo={require("../../assets/All_Star_CAW_2026.png")}
         />
 
         <MatchesSection matches={cawData} />

@@ -15,11 +15,14 @@ type MatchItem = {
 
 type Props = {
   matches: MatchItem[];
+  matchOverride?: MatchItem;
+  logo: any;
   colours?: any;
 };
 
 export default function MatchOfTheNightSection({
   matches,
+  matchOverride,
   logo,
   colours: overrideColours,
 }: Props) {
@@ -32,10 +35,14 @@ export default function MatchOfTheNightSection({
   };
 
   // Find the highest rated match
-  const match = matches.reduce(
+  let match = matches.reduce(
     (best, curr) => ((curr.Rating || 0) > (best.Rating || 0) ? curr : best),
     matches[0],
   );
+  // Match Overwrite if needed
+  if (matchOverride) {
+    match = matchOverride;
+  }
 
   return (
     <Grid container spacing={1} alignItems="center" justifyContent="center">

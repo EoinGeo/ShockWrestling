@@ -11,7 +11,12 @@ import { useTheme } from "../../contexts/ThemeContext";
 
 export default function WildNewsletter() {
   const { setScheme } = useTheme();
-
+  let matchOverride = {
+    Header:
+      "Gavin Belle (c) vs Arik Alexander - Wild Rulez Match - Outer Rim Championship",
+    Desc: " ",
+    Rating: 5,
+  };
   useEffect(() => {
     setScheme("dark");
   }, []);
@@ -25,7 +30,7 @@ export default function WildNewsletter() {
 
         <MatchOfTheNightSection
           matches={wildData}
-          logo={require("../../assets/WILD.png")}
+          logo={require("../../assets/All_Star_Wild_2026.png")}
         />
 
         <MatchesSection matches={wildData} />

@@ -5,11 +5,12 @@ export const topCawMoments = [
 { Header: "European Divide", Desc: "Vittorio Grau meets Jonathan Barker in the ring after his win and the two stare down. Tensions rising after the finish of the ladder match where Barker stole Grau’s opportunity to win the European Championship.", Rating: 5 },
 { Header: "A Payneful Chapter", Desc: "After their match Steven and Pat shake hands but Sean Payne attacks Steven on his way up the ramp! Pat Cross see’s the assault and gives chase out of the arena!", Rating: 5 },
 { Header: "WARGAMES!", Desc: "Ace attacks Ziggy Danger post match! Eoin quickly steps in to save him but is grabbed by Rob! Rob is attacked by Animus who is attacked by Emerson who is attacked by TJ! Chaos unfolds in the main event of CAW before Andre declares The Constant vs The Rebellion at Galactic Conquest in…WARGAMES!", Rating: 5 },];
-export const cawBigMoment = "../images/CAW060726.jpg";
+export const cawBigMoment = "../images/AllStarCAW130726.jpg";
 // All Matches Data
 export const cawData = [
-{ Header: "Rodkip (c) vs Filthy Flame Shadow - United States Championship - 7:00", Desc: "", Rating: 4 },
-{ Header: "Mack Daddy vs Belladonna - 22:03", Desc: "", Rating: 4 },
-{ Header: "Battle Royal- Winner Faces Pat Cross for the World Title Next Week - 30:00", Desc: "", Rating: 5 },
-{ Header: "Eoin vs Arik Alexander vs Tyler Frost - Maddie's Classic Tournament - 44:00", Desc: "", Rating: 4.5 },
-{ Header: "Zach Gold vs Skywalker vs Alex Dean - Maddie's Classic Tournament - 57:18", Desc: "", Rating: 4 },];
+{ Header: "Mack VS Natasha Brock", Desc: " ", Rating: 3 },
+{ Header: "Rodkip (c) All-Star Open Challenge", Desc: " ", Rating: 3.5 },
+{ Header: "Nicholas VS Flame Shadow VS Ryan Rizal - Maddie's Classic Tournament", Desc: " ", Rating: 5 },
+{ Header: "All-Star Gauntlet - Winner Faces US Champion Next week", Desc: " ", Rating: 4.5 },
+{ Header: "Logan Luscious VS Germ Stars VS Raymond Knox - Maddie's Classic Tournament", Desc: " ", Rating: 4 },
+{ Header: "Pat Cross (c) VS American Inferno - World Championship", Desc: " ", Rating: 3 },];
