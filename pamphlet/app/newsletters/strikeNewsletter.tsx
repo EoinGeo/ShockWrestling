@@ -25,7 +25,7 @@ export default function StrikeNewsletter() {
 
         <MatchOfTheNightSection
           matches={strikeData}
-          logo={require("../../assets/All_Star_Strike_2026.png")}
+          logo={require("../../assets/STRIKE.png")}
         />
 
         <MatchesSection matches={strikeData} />

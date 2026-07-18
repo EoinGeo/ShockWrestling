@@ -30,7 +30,7 @@ export default function WildNewsletter() {
 
         <MatchOfTheNightSection
           matches={wildData}
-          logo={require("../../assets/All_Star_Wild_2026.png")}
+          logo={require("../../assets/WILD.png")}
         />
 
         <MatchesSection matches={wildData} />
