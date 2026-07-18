@@ -1,6 +1,6 @@
 export const topWildMoments = [
   { Header: "Andre and JVHs executive decision.", Desc: "Both GMs come together and announce Count Outs no longer count in the World Cup Tournament ", Rating: 5 },];
-export const wildBigMoment = "../images/AllStarCAW200726.jpg";
+export const wildBigMoment = "../images/AllStarWild150726.jpg";
 export const wildData = [
 { Header: "Judgment vs Arik Alexander - Falls Count Anywhere", Desc: " ", Rating: 4.5 },
 { Header: "NHL Match", Desc: " ", Rating: 2 },
