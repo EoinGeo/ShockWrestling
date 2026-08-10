@@ -30,7 +30,6 @@ export default function CawNewsletter() {
 
         <MatchOfTheNightSection
           matches={cawData}
-          matchOverride={matchOverride}
           logo={require("../../assets/CAW.png")}
         />
 
